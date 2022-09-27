@@ -51,46 +51,62 @@ function BrandsSlider() {
                     we worked these top brands
                 </h2>
 
-                <div className="mt-10 border-b-2 pb-5 border-slate ">
+                <div className="mt-10 border-b-2 pb-5 border-slate max-w-4xl justify-center mx-auto">
                     <Slider {...settings}>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand7} alt="brand logo" />
+                                <a href="http://hum.colgate.com/" target='blank'>
+                                    <img src={brand7} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand8} alt="brand logo" />
+                                <a href="https://maradji.com/" target='blank'>
+                                    <img src={brand8} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand6} alt="brand logo" />
+                                <a href="https://dtlr.com/" target='blank'>
+                                    <img src={brand6} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
+                            <a href="https://www.persil.com/uk/home.html" target='blank'>
                                 <img src={brand1} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
+                            <a href="https://www.deere.com/en/index.html" target='blank'>
                                 <img src={brand2} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand3} alt="brand logo" />
+                                <a href="https://www.gmcompanystore.com/" target='blank'>
+                                    <img src={brand3} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand4} alt="brand logo" />
+                                <a href="https://facerealityskincare.com/" target='blank'>
+                                    <img src={brand4} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                                <img src={brand5} alt="brand logo" />
+                                <a href="http://bodyhealth.com/" target='blank'>
+                                    <img src={brand5} alt="brand logo" />
+                                </a>
                             </div>
                         </li>
 

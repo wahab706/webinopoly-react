@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.layout-main{
+.layout-main {
     max-width: 2000px;
     margin: 0 auto;
     justify-content: center;
@@ -129,13 +129,13 @@
     left: 10px;
 }
 
-.small-banner p{
+.small-banner p {
     font-size: 22px;
     font-weight: 400;
     margin-top: 20px;
 }
 
-.small-banner button{
+.small-banner button {
     padding: 14px 35px;
     font-size: 14px;
     font-weight: 400;
@@ -173,11 +173,16 @@
     margin-top: 2rem;
 }
 
-
+/* 
 .slick-slider{
-    max-width: 1000px !important;
+    max-width: 950px !important;
     margin: 0 auto ;
-}
+} */
+
+/* .slick-list{
+    max-width: 950px !important;
+    margin: 0 auto ;
+} */
 
 /* --------------------------GridItems Section--------------------- */
 
@@ -308,7 +313,7 @@
     color: #60C77C;
 }
 
-.reviews-main{
+.reviews-main {
     max-width: 1630px;
     margin: 0 auto;
     /* justify-content: center; */
@@ -347,7 +352,7 @@
     font-weight: normal;
 }
 
-.faq-section h1{
+.faq-section h1 {
     color: #383838;
 }
 
@@ -494,6 +499,7 @@
         height: auto;
         margin-top: 15px;
     }
+
     /* .reviews-main{
         padding-right: 32px;
         padding-left: 32px;
