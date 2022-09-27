@@ -22,7 +22,7 @@ export default function Header() {
 
                     <li className="md:text-xs  xl:text-sm ">
                         <Link to="/" >
-                            <span className="flex group"> web servicse  <RiArrowDropDownLine size={20} />
+                            <span className="flex group"> web services  <RiArrowDropDownLine size={20} />
                                 <div className="absolute hidden group-hover:block rounded-b mt-5 bg-blue p-5 pr-10">
                                     <ul className="flex flex-col gap-2">
                                         <li>shopify experts </li>
@@ -75,7 +75,7 @@ export default function Header() {
                             <Link to="/" >
                                 <span className='flex text-sm sm:text-base'>
                                     <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
-                                    web servicse  <RiArrowDropDownLine size={20} />
+                                    web services  <RiArrowDropDownLine size={20} />
                                 </span>
                             </Link>
                             <div className="nav-sub-heading pl-6 mt-2">
