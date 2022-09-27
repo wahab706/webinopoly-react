@@ -223,9 +223,9 @@ export default function Header() {
 
             <header
                 role="banner"
-                className="hidden md:flex flex-row justify-between items-center w-full
+                className="hidden md:flex flex-row justify-between items-center w-full 
                 z-40 top-0 leading-none gap-4 antialiased transition bg-blue fixed 
-                md:flex-col
+                md:flex-col 
                 md:py-5 md:pl-14 md:pr-40
                 lg:py-7 lg:pb-5 lg:pl-12 lg:pr-28 
                 xl:pl-24 xl:pr-40 
@@ -321,7 +321,7 @@ export default function Header() {
             </header>
 
             {
-                modalShow && 
+                modalShow &&
                 <Modal setModalShow={setModalShow} />
             }
         </>

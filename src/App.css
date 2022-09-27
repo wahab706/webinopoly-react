@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.layout-main{
+    max-width: 2000px;
+    margin: 0 auto;
+    justify-content: center;
+}
 
 /* ------------------------Header section----------------------------------- */
 
@@ -303,6 +308,13 @@
     color: #60C77C;
 }
 
+.reviews-main{
+    max-width: 1630px;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+
+
 /* ------------------------KeyFeatures section----------------------------------- */
 
 .features-grid h2 {
@@ -479,6 +491,10 @@
         height: auto;
         margin-top: 15px;
     }
+    /* .reviews-main{
+        padding-right: 32px;
+        padding-left: 32px;
+    } */
 }
 
 /* --------------------------Small Screen--------------------- */
@@ -530,6 +546,11 @@
         height: auto;
         margin-top: 15px;
     }
+
+    /* .reviews-main{
+        padding-right: 20px;
+        padding-left: 20px;
+    } */
 }
 
 
@@ -595,6 +616,7 @@
         height: auto;
         margin-top: 15px;
     }
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 639px) {

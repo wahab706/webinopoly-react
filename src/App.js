@@ -19,21 +19,23 @@ function App() {
   return (
     <Layout>
       <Suspense >
-        {
-          modalShow &&
-          <Modal setModalShow={setModalShow} />
-        }
-        <Hero setModalShow={setModalShow} />
-        <BrandsSlider />
-        <Reviews />
-        <ContactForm toggle={true} />
-        <IconsGrid />
-        <GridItems />
-        <KeyFeatures />
-        <WebTypeDesigns setModalShow={setModalShow} />
-        <OurPartners />
-        <ContactForm />
-        <Faq />
+        <div className="app">
+          {
+            modalShow &&
+            <Modal setModalShow={setModalShow} />
+          }
+          <Hero setModalShow={setModalShow} />
+          <BrandsSlider />
+          <Reviews />
+          <ContactForm toggle={true} />
+          <IconsGrid />
+          <GridItems />
+          <KeyFeatures />
+          <WebTypeDesigns setModalShow={setModalShow} />
+          <OurPartners />
+          <ContactForm />
+          <Faq />
+        </div>
       </Suspense>
     </Layout>
   );

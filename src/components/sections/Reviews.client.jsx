@@ -40,7 +40,7 @@ export default function Reviews() {
 
             </section>
 
-            <section className="grid lg:py-5 mini:px-8 xs:px-12 md:px-14 lg:px-24 xl:px-32 mt-10">
+            <section className="grid reviews-main lg:py-5 px-8 md:px-10 lg:px-12 xl:px-16 mt-10 ">
 
                 <section className="grid-box grid items-start grid-flow-row w-full grid-boxes
               xs-grid-col-1 sm:grid-cols-2 lg:grid-cols-3
