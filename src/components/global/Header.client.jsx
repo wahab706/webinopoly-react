@@ -43,7 +43,7 @@ export default function Header() {
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
-                        <Link to="/" > case study </Link>
+                        <Link to="/" > case studies </Link>
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
@@ -146,7 +146,7 @@ export default function Header() {
                     <li className="text-sm sm:text-base">
                         <Link to="/" >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
-                                case study
+                                case studies
                             </span>
                         </Link>
                     </li>
