@@ -129,11 +129,15 @@
     left: 10px;
 }
 
+/* .small-banner h1{
+    font-size: 42px;
+}
+
 .small-banner p {
     font-size: 22px;
     font-weight: 400;
-    margin-top: 20px;
-}
+    margin-top: 10px;
+} */
 
 .small-banner button {
     padding: 14px 35px;
@@ -514,6 +518,21 @@
         padding-right: 32px;
         padding-left: 32px;
     } */
+
+    .small-banner h1{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .small-banner p{
+        font-size: 18px;
+        
+    }
+
+    .small-banner button {
+        padding: 13px 28px;
+        font-size: 12px;
+    }
 }
 
 /* --------------------------Small Screen--------------------- */
@@ -570,6 +589,17 @@
         padding-right: 20px;
         padding-left: 20px;
     } */
+
+    .small-banner h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .small-banner button {
+        padding: 14px 30px;
+        font-size: 13px;
+        font-weight: 400;
+    }
 }
 
 

@@ -8,17 +8,17 @@ export default function Hero({ setModalShow }) {
             <section className="relative h-99 bg-blue bg-no-repeat bg-cover bg-center small-banner"
                 style={{ backgroundImage: `url(${banner1})` }} >
                 <div className="absolute justify-center flex flex-col left-0 right-0 
-                 md:bottom-10 m-auto small-banner-text">
-                    <h1 className="text-white text-center mini:text-2xl xs:text-4xl md:text-5xl" >
+               md:bottom-24 lg:bottom-18 xl:bottom-10 m-auto small-banner-text">
+                    <h1 className="text-white text-center sm:text-4xl 2xl:text-5xl" >
                         Shopify
                         <span className='ml-2 font-semibold text-pink' id='text' ></span>
                         <div className='console-underscore text-pink' id='console'>&#124;</div>
                     </h1>
-                    <p className="text-white text-center">
+                    <p className="text-white text-center mt-4 sm:text-lg xl:text-xl">
                         Watch us rock your world with our Shopify capabilities
                     </p>
                     <button className="text-white bg-parrot uppercase justify-center 
-                    md:mt-8 mx-auto rounded-md  hover:delay-200 hover:ease-in-out"
+                    mt-5 mx-auto rounded-md  hover:delay-200 hover:ease-in-out"
                         onClick={() => setModalShow(true)} >
                         Request a free quote
                     </button>
