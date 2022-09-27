@@ -12,14 +12,14 @@ import partner10 from '../../assets/partner logos/partner10.png'
 export default function KeyFeatures() {
     return (
         <>
-            <section className="partners-section px-6 md:px-10 lg:px-14 py-10">
+            <section className="partners-section px-6 md:px-10 lg:px-14 pt-10 pb-18">
                 <h1 className="capitalize text-3xl font-semibold text-center 
-                text-semi-black">
+                text-half-black-light">
                     Our Partners
                 </h1>
 
                 <p className='mt-4 text-base sm:text-lg md:text-xl font-medium text-center 
-                text-light-black'>
+                text-light-gray'>
                     We Partner with industry leaders to help our clients achieve massive success
                 </p>
 

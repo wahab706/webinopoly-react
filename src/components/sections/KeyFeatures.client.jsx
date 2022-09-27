@@ -10,9 +10,9 @@ import icon12 from '../../assets/icons/icon12.png'
 export default function KeyFeatures() {
     return (
         <>
-            <section className="features-section bg-half-white sm:px-6 md:px-8 lg:px-16 py-12">
+            <section className="features-section bg-half-white sm:px-6 md:px-8 lg:px-16 pt-18 pb-24">
                 <h1 className="capitalize tracking-wider text-3xl font-semibold text-center 
-                text-semi-black">
+                text-half-black-light">
                     Key Features Of Shopify Store
                 </h1>
 

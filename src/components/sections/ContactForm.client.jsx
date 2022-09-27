@@ -7,7 +7,7 @@ function ContactForm({ toggle }) {
 
     return (
         <>
-            <section className={toggle ? 'bg-dark-blue contactForm-section mt-4 sm:px-14 py-10 sm:py-12 md:py-16 w-full' :
+            <section className={toggle ? 'bg-dark-blue contactForm-section mt-2 sm:px-14 py-10 sm:py-12 md:py-16 w-full' :
                 'bg-lighter-pink contactForm-section mt-4 sm:px-14 py-10 sm:py-12 md:py-16 w-full'}>
                 {toggle ?
                     <>
@@ -15,16 +15,16 @@ function ContactForm({ toggle }) {
                             Let's discuss your project
                         </h2>
 
-                        <p className="text-white text-sm sm:text-base my-4">
+                        <p className="text-white text-sm sm:text-base my-7">
                             Tell us a bit more about what you are working on, and let's connect.
                         </p>
                     </> :
                     <>
-                        <h2 className="text-half-black text-2xl sm:text-3xl md:text-4xl ">
+                        <h2 className="text-half-black-light text-2xl sm:text-3xl md:text-4xl ">
                             Start Your Website Today
                         </h2>
 
-                        <p className="text-half-black text-sm sm:text-base my-4">
+                        <p className="text-half-black-light text-sm sm:text-base my-4">
                             Talk To A Shopify Expert Today For Free (713) 805-5888
                         </p>
                     </>
@@ -32,7 +32,7 @@ function ContactForm({ toggle }) {
 
                 <div className="justify-center formSection mt-4">
                     <form method="post" action="/contact#ContactForm" className="w-full">
-                        <div className="FormSmall gap-4 max-w-2xl mx-auto">
+                        <div className="FormSmall gap-5 max-w-2xl mx-auto">
                             <input type="text"
                                 placeholder="First name*"
                                 required
@@ -48,7 +48,7 @@ function ContactForm({ toggle }) {
                         </div>
                         {
                             toggle ?
-                                <div className="FormSmall gap-4 mt-5 md:mt-6 max-w-2xl mx-auto">
+                                <div className="FormSmall gap-5 mt-5 md:mt-6 max-w-2xl mx-auto">
                                     <input type="email"
                                         placeholder="Email*"
                                         required
@@ -86,7 +86,7 @@ function ContactForm({ toggle }) {
                                 className={styles.largeInput}
                             />
                         </div>
-                        <div className="flex mt-7 w-full">
+                        <div className="flex mt-6 w-full">
                             {
                                 toggle ?
                                     <button className="bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-2xl mx-auto">

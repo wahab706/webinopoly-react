@@ -6,9 +6,9 @@ import img5 from '../../assets/work types/img5.webp'
 
 function WebTypeDesigns({ setModalShow }) {
     return (
-        <section className="bg-half-white-light pt-20 px-4 md:px-6 lg:px-28 xl:px-32 webType-section">
+        <section className="bg-half-white-light pt-24 px-4 md:px-6 lg:px-28 xl:px-32 webType-section">
             <section>
-                <h1 className="webType-header capitalize text-3xl font-semibold text-center text-semi-black">
+                <h1 className="webType-header capitalize text-3xl font-semibold text-center text-half-black-light-light">
                     What Are The Types Of Web Designs?
                 </h1>
                 <p className="mt-4 text-sm md:text-base">
@@ -27,7 +27,7 @@ function WebTypeDesigns({ setModalShow }) {
                         <img src={img1} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className=" basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
-                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black mb-3 lg:mb-6">
+                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black-light mb-3 lg:mb-6">
                             1. ILLUSTRATIVE WEB DESIGN
                         </h1>
                         <p>
@@ -50,7 +50,7 @@ function WebTypeDesigns({ setModalShow }) {
                         <img src={img2} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
-                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black mb-3 lg:mb-6">
+                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black-light mb-3 lg:mb-6">
                             2. MINIMALIST WEB DESIGN
                         </h1>
                         <p>
@@ -72,7 +72,7 @@ function WebTypeDesigns({ setModalShow }) {
                         <img src={img3} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
-                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black mb-3 lg:mb-6">
+                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black-light mb-3 lg:mb-6">
                             3. TYPOGRAPHY WEB DESIGN
                         </h1>
                         <p>
@@ -96,7 +96,7 @@ function WebTypeDesigns({ setModalShow }) {
                         <img src={img4} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
-                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black mb-3 lg:mb-6">
+                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black-light mb-3 lg:mb-6">
                             4. SINGLE PAGE WEB DESIGN
                         </h1>
                         <p>
@@ -121,7 +121,7 @@ function WebTypeDesigns({ setModalShow }) {
                         <img src={img5} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
-                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black mb-3 lg:mb-6">
+                        <h1 className="tracking-wide uppercase text-xl md:text-2xl font-semibold text-half-black-light mb-3 lg:mb-6">
                             5. FLAT WEB DESIGN
                         </h1>
                         <p>

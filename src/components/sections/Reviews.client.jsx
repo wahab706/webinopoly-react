@@ -24,14 +24,14 @@ export default function Reviews() {
 
                     <Link to="/" className='justify-between'>
                         <img src={trustpilot} alt="logo" className='w-auto h-18 mx-auto' />
-                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
+                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
                             100+ 5-STAR TESTIMONIALS
                         </h2>
                     </Link>
 
                     <Link to="/" className='justify-between'>
                         <img src={google} alt="logo" className='w-auto h-18 mx-auto' />
-                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
+                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
                             180+ 5-STAR REVIEWS
                         </h2>
                     </Link>
@@ -127,11 +127,14 @@ export default function Reviews() {
                         </Link>
                     </section>
                 </section>
-
-                <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-20 
+                <div className='flex justify-center'>
+                    <Link to='/'>
+                        <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-24 
                 mx-auto rounded-md px-6 py-4 hover:text-black hover:delay-200 hover:ease-in-out">
-                    Request a free quote
-                </button>
+                            Request a free quote
+                        </button>
+                    </Link>
+                </div>
             </section>
 
         </>

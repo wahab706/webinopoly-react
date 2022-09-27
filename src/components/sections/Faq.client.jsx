@@ -13,8 +13,8 @@ function Faq() {
 
 
     return (
-        <section className='pt-14 px-1 sm:px-4 md:px-6 lg:px-8 xl:px-18 2xl:px-32 mx-auto'>
-            <h1 className="capitalize text-xl sm:text-2xl md:text-3xl font-bold sm:font-semibold text-center text-half-black">
+        <section className='pt-14 px-1 sm:px-4 md:px-6 lg:px-8 xl:px-18 2xl:px-32 mx-auto faq-section'>
+            <h1 className="capitalize text-xl sm:text-2xl md:text-3xl font-bold sm:font-semibold text-center ">
                 frequently asked questions
             </h1>
             <section className='grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-10 p-4 mt-4 sm:mt-5 md:mt-8'>

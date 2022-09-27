@@ -11,25 +11,25 @@ export default function IconsGrid() {
          grid-cols-2 md:grid-cols-4 sm:gap-y-10 iconsGrid'>
                 <Link to='/' className=' p-4 hover:bg-lighter-pink'>
                     <img src={icon1} alt="logo" />
-                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-half-black text-center">
+                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-semi-black text-center">
                         Handcrafted Designs
                     </h2>
                 </Link>
                 <Link to='/' className=' p-4 hover:bg-lighter-pink'>
                     <img src={icon2} alt="logo" />
-                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-half-black text-center">
+                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-semi-black text-center">
                         Quicker Turn Around
                     </h2>
                 </Link>
                 <Link to='/' className=' p-4 hover:bg-lighter-pink'>
                     <img src={icon3} alt="logo" />
-                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-half-black text-center">
+                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-semi-black text-center">
                         Faster Load Time
                     </h2>
                 </Link>
                 <Link to='/' className=' p-4 hover:bg-lighter-pink'>
                     <img src={icon4} alt="logo" />
-                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-half-black text-center">
+                    <h2 className="mt-6 capitalize text-lg font-medium font-MontSerif text-semi-black text-center">
                         Responsive Designs
                     </h2>
                 </Link>

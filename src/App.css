@@ -166,7 +166,7 @@
 .slick-prev:before,
 .slick-next:before {
     color: #c3c3c3 !important;
-    opacity: 0.75;
+    opacity: 0.65;
 }
 
 .grid-box section {
@@ -186,7 +186,7 @@
     text-transform: capitalize;
     padding-left: 45px;
     font-weight: 600;
-    color: #3A3F52;
+    color: #3B3B3B;
     letter-spacing: 0;
     margin-top: 10px;
 }
@@ -321,7 +321,7 @@
     text-transform: capitalize;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    color: #343b39;
+    color: #3A3F52;
 }
 
 
@@ -347,6 +347,9 @@
     font-weight: normal;
 }
 
+.faq-section h1{
+    color: #383838;
+}
 
 
 /* ------------------------Contact Form + Modal section----------------------------------- */
