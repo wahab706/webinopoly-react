@@ -1,6 +1,6 @@
 import banner1 from '../../assets/banner1.webp'
 
-export default function Hero({setModalShow}) {
+export default function Hero({ setModalShow }) {
 
 
     return (
@@ -14,13 +14,12 @@ export default function Hero({setModalShow}) {
                         <span className='ml-2 font-semibold text-pink' id='text' ></span>
                         <div className='console-underscore text-pink' id='console'>&#124;</div>
                     </h1>
-                    <h2 className="text-white text-center mini:text-base xs:text-xl lg:text-2xl mt-3 
-                    mini:px-5 xs:px-4 md:px-0">
+                    <p className="text-white text-center">
                         Watch us rock your world with our Shopify capabilities
-                    </h2>
-                    <button className="text-white mini:text-xs xs:text-sm bg-parrot uppercase justify-center md:w-52 lg:w-56 
-                    md:mt-7 mini:mt-5 mx-auto rounded-md px-4 py-3 lg:px-6 lg:py-4  hover:delay-200 hover:ease-in-out"
-                    onClick={() => setModalShow(true)} >
+                    </p>
+                    <button className="text-white bg-parrot uppercase justify-center 
+                    md:mt-8 mx-auto rounded-md  hover:delay-200 hover:ease-in-out"
+                        onClick={() => setModalShow(true)} >
                         Request a free quote
                     </button>
                 </div>

@@ -23,7 +23,7 @@ function WebTypeDesigns({ setModalShow }) {
             </section>
             <section className="mt-12 flex flex-col webtype-grids  bg-white">
                 <div className=" flex flex-col md:flex-row w-full justify-center">
-                    <div className="basis-full md:basis-1/2 my-2 p-0 md:p-3 lg:p-0">
+                    <div className="basis-full md:basis-1/2  p-0 md:p-3 lg:p-0">
                         <img src={img1} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className=" basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
@@ -46,7 +46,7 @@ function WebTypeDesigns({ setModalShow }) {
                 </div>
 
                 <div className="flex flex-col md:flex-row-reverse w-full justify-center">
-                    <div className="basis-full md:basis-1/2 my-2 p-0 md:p-3 lg:p-0">
+                    <div className="basis-full md:basis-1/2  p-0 md:p-3 lg:p-0">
                         <img src={img2} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
@@ -68,7 +68,7 @@ function WebTypeDesigns({ setModalShow }) {
                 </div>
 
                 <div className="flex flex-col md:flex-row w-full justify-center">
-                    <div className="basis-full md:basis-1/2 my-2 p-0 md:p-3 lg:p-0">
+                    <div className="basis-full md:basis-1/2  p-0 md:p-3 lg:p-0">
                         <img src={img3} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
@@ -92,7 +92,7 @@ function WebTypeDesigns({ setModalShow }) {
                 </div>
 
                 <div className="flex flex-col md:flex-row-reverse w-full justify-center">
-                    <div className="basis-full md:basis-1/2 my-2 p-0 md:p-3 lg:p-0">
+                    <div className="basis-full md:basis-1/2  p-0 md:p-3 lg:p-0">
                         <img src={img4} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
@@ -117,7 +117,7 @@ function WebTypeDesigns({ setModalShow }) {
 
 
                 <div className="flex flex-col md:flex-row w-full justify-center">
-                    <div className="basis-full md:basis-1/2 my-2 p-0 md:p-3 lg:p-0">
+                    <div className="basis-full md:basis-1/2  p-0 md:p-3 lg:p-0">
                         <img src={img5} alt="workType" width='100%' height='auto' />
                     </div>
                     <div className="basis-full md:basis-1/2 p-5 md:p-3 lg:p-8">
@@ -138,12 +138,16 @@ function WebTypeDesigns({ setModalShow }) {
                     </div>
                 </div>
 
+
+            </section>
+            <div className='flex justify-center'>
                 <button className="tracking-wider text-white text-xs sm:text-sm font-semibold bg-parrot uppercase justify-center 
                 w-44 sm:w-52 my-12 mx-auto rounded-md px-5 py-4 hover:bg-blue hover:delay-100 hover:ease-in-out"
                     onClick={() => setModalShow(true)} >
                     Request a quote
                 </button>
-            </section>
+            </div>
+
         </section>
     )
 }

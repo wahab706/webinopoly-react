@@ -46,7 +46,7 @@ function BrandsSlider() {
     return (
         <>
             <section className="flex flex-col justify-center my-6 lg:py-5 
-          sm:px-14 md:px-24 lg:px-32 xl:px-44 2xl:px-64 mini-slider xs-slider ">
+          px-18 md:px-24 lg:px-32 xl:px-44 2xl:px-64 mini-slider xs-slider ">
                 <h2 className="uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
                     we worked these top brands
                 </h2>
