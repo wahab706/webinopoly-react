@@ -100,7 +100,7 @@ export default function Header() {
                         <div className="flex flex-col gap-1">
 
                             <span className='flex text-sm sm:text-base'>
-                                <a href="https://webinopoly.com/pages/web-design "  >
+                                <a href="https://webinopoly.com/pages/web-design "  className='flex'>
                                     <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                     web services  <RiArrowDropDownLine size={20} />
                                 </a>
