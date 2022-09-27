@@ -237,13 +237,13 @@ export default function Footer() {
                                                     webpinopoly Inc.
                                                 </p>
                                                 <p>
-                                                6464 Savoy dr.
+                                                    6464 Savoy dr.
                                                 </p>
                                                 <p>
-                                                Suite 720
+                                                    Suite 720
                                                 </p>
                                                 <p>
-                                                Houston, TX 77036
+                                                    Houston, TX 77036
                                                 </p>
                                                 <p>
                                                     United States of America
@@ -315,21 +315,17 @@ export default function Footer() {
 
                         <section>
                             <a href="https://www.expertise.com/tx/houston/web-design">
-                            <img src={expertise} alt="brand-logo" />
+                                <img src={expertise} alt="brand-logo" />
                             </a>
                         </section>
 
                         <section>
                             <a href="https://www.trustpilot.com/review/webinopoly.com">
-                            <img src={stars} alt="brand-logo" />
-                            <img src={trustpilot} alt="brand-logo" />
+                                <img src={stars} alt="brand-logo" />
+                                <img src={trustpilot} alt="brand-logo" />
                             </a>
                         </section>
                     </div>
-
-
-
-
                 </section>
 
 

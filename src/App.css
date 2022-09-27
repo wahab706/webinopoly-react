@@ -36,6 +36,14 @@
     color: #e7277c;
 }
 
+.call-para{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif !important;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+
 .mobile-navbar li {
     font-weight: 400;
     text-transform: uppercase;

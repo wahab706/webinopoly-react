@@ -256,9 +256,9 @@ export default function Header() {
                 className="hidden md:flex flex-row justify-between items-center w-full max-header
                 z-40 top-0 leading-none gap-4 antialiased transition bg-blue fixed 
                 md:flex-col 
-                md:py-5 md:pl-14 md:pr-40
+                md:py-5 md:pl-14 md:pr-36
                 lg:py-7 lg:pb-5 lg:pl-12 lg:pr-28 
-                xl:pl-24 xl:pr-40 
+                xl:pl-24 xl:pr-36 
                 "
             >
                 <div className='forkit '>
@@ -286,7 +286,7 @@ export default function Header() {
                             {tabletIcons()}
                         </div>
                         <div className="mt-2">
-                            <p className="text-white md:text-xs xl:text-sm font-medium" >
+                            <p className="text-white md:text-xs xl:text-sm font-medium call-para" >
                                 CALL - (713) 805-5888
                             </p>
                         </div>
