@@ -7,7 +7,7 @@ import icon4 from '../../assets/icons/icon4.png'
 export default function IconsGrid() {
     return (
         <>
-            <section className='grid grid-flow-row my-12 mx-auto sm:px-12 md:px-16 lg:px-20 xl:px-24
+            <section className='grid grid-flow-row my-12 mx-auto 
          grid-cols-2 md:grid-cols-4 sm:gap-y-10 iconsGrid'>
                 <Link to='/' className=' p-4 hover:bg-lighter-pink'>
                     <img src={icon1} alt="logo" />

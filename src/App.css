@@ -284,6 +284,12 @@
     margin: 0 auto;
 }
 
+.iconsGrid{
+    max-width: 900px;
+    justify-content: center;
+    
+}
+
 .iconsGrid img {
     justify-content: center;
     opacity: 0.9;
