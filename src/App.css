@@ -173,13 +173,20 @@
     margin-top: 2rem;
 }
 
+.slick-dots{
+    display: none !important;
+}
 
 
-
-.slick-list{
+.slick-slider{
     max-width: 950px !important;
     margin: 0 auto ;
 }
+
+/* .slick-list{
+    max-width: 950px !important;
+    margin: 0 auto ;
+} */
 
 /* --------------------------GridItems Section--------------------- */
 

@@ -36,6 +36,7 @@ module.exports = {
         'hero-image': 'url(./src/assets/banner1.png)'
       },
       spacing: {
+        
         '18': '4.5rem',
         '98': '26rem',
         '99': '27rem',

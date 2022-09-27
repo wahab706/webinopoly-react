@@ -51,7 +51,7 @@ function BrandsSlider() {
                     we worked these top brands
                 </h2>
 
-                <div className="mt-10 border-b-2 pb-5 border-slate  justify-center mx-auto">
+                <div className="mt-10  pb-5 w-full justify-center mx-auto">
                     <Slider {...settings}>
                         <li >
                             <div className="slider-img-div">
@@ -76,15 +76,15 @@ function BrandsSlider() {
                         </li>
                         <li >
                             <div className="slider-img-div">
-                            <a href="https://www.persil.com/uk/home.html" target='blank'>
-                                <img src={brand1} alt="brand logo" />
+                                <a href="https://www.persil.com/uk/home.html" target='blank'>
+                                    <img src={brand1} alt="brand logo" />
                                 </a>
                             </div>
                         </li>
                         <li >
                             <div className="slider-img-div">
-                            <a href="https://www.deere.com/en/index.html" target='blank'>
-                                <img src={brand2} alt="brand logo" />
+                                <a href="https://www.deere.com/en/index.html" target='blank'>
+                                    <img src={brand2} alt="brand logo" />
                                 </a>
                             </div>
                         </li>
@@ -110,8 +110,9 @@ function BrandsSlider() {
                             </div>
                         </li>
 
-
+                        
                     </Slider>
+                    <hr className='h-1 max-w-4xl justify-center mx-auto text-slate mt-1 md:mt-3 lg:mt-5'/>
                 </div>
             </section>
         </>
