@@ -253,7 +253,7 @@ export default function Header() {
 
             <header
                 role="banner"
-                className="hidden md:flex flex-row justify-between items-center w-full 
+                className="hidden md:flex flex-row justify-between items-center w-full max-header
                 z-40 top-0 leading-none gap-4 antialiased transition bg-blue fixed 
                 md:flex-col 
                 md:py-5 md:pl-14 md:pr-40
