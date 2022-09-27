@@ -51,7 +51,7 @@ function BrandsSlider() {
                     we worked these top brands
                 </h2>
 
-                <div className="mt-10 border-b-2 pb-5 border-slate max-w-4xl justify-center mx-auto">
+                <div className="mt-10 border-b-2 pb-5 border-slate  justify-center mx-auto">
                     <Slider {...settings}>
                         <li >
                             <div className="slider-img-div">
