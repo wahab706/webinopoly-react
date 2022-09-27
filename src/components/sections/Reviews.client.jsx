@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+
 import trustpilot from '../../assets/brand logos/trustpilot.png'
 import google from '../../assets/brand logos/google.png'
 import box1 from '../../assets/grid box/box1.webp'
@@ -14,7 +14,7 @@ import box9 from '../../assets/grid box/box9.webp'
 export default function Reviews({ setModalShow }) {
     return (
         <>
-            <section className=" flex flex-col justify-center mt-6 lg:py-5">
+            <section className=" flex flex-col justify-center mt-0 lg:py-5">
                 <h2 className="uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
                     our reviews
                 </h2>
@@ -22,19 +22,19 @@ export default function Reviews({ setModalShow }) {
                 <section className="grid grid-flow-row mx-auto 
                 mini:grid-cols-1 xs:grid-cols-2 md:gap-4 mini:gap-y-10 mt-10">
 
-                    <Link to="/" className='justify-between'>
+                    <a href="https://www.trustpilot.com/review/webinopoly.com " className='justify-between'>
                         <img src={trustpilot} alt="logo" className='w-auto h-18 mx-auto' />
                         <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
                             100+ 5-STAR TESTIMONIALS
                         </h2>
-                    </Link>
+                    </a>
 
-                    <Link to="/" className='justify-between'>
+                    <a href=" https://www.google.com/search?q=webinopoly+review&oq=webinopoly+review&aqs=chrome..69i57j0j69i60l3.5495j0j1&sourceid=chrome&ie=UTF-8#lrd=0x8640ec9266c7f16d:0x1e1380633ccaf7e3,1,," className='justify-between'>
                         <img src={google} alt="logo" className='w-auto h-18 mx-auto' />
                         <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
                             180+ 5-STAR REVIEWS
                         </h2>
-                    </Link>
+                    </a>
 
                 </section>
 
@@ -47,89 +47,89 @@ export default function Reviews({ setModalShow }) {
                 sm:gap-4 md:gap-6 lg:gap-8">
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href=" https://www.puravidabracelets.com/" className="grid justify-center">
                             <img src={box1} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 PURAVIDA BRACELETS
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href=" https://shoppalomaandco.com/" className="grid justify-center">
                             <img src={box2} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 PALOMA AND CO
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href=" https://www.ghostlifestyle.com/" className="grid justify-center">
                             <img src={box3} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 GHOST LIFESTYLE
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href="https://www.polyandbark.com/ " className="grid justify-center">
                             <img src={box4} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 POLYANDBARK
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href=" https://www.fashionnova.com/" className="grid justify-center">
                             <img src={box5} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 FASHIONNOVA
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href="https://alphaleteathletics.com/ " className="grid justify-center">
                             <img src={box6} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 ALPHALETEATHLETICS
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href="https://buffy.co/ " className="grid justify-center">
                             <img src={box7} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 BUFFY
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href=" https://happyboxstore.com/" className="grid justify-center">
                             <img src={box8} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 HAPPY BOX STORE
                             </button>
-                        </Link>
+                        </a>
                     </section>
 
                     <section>
-                        <Link to="/" className="grid justify-center">
+                        <a href="https://oliversapparel.com/ " className="grid justify-center">
                             <img src={box9} alt="logo" />
                             <button className="mini:text-lg md:text-lg lg:text-xl">
                                 OLIVERSAPPAREL
                             </button>
-                        </Link>
+                        </a>
                     </section>
                 </section>
                 <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-24 
                 mx-auto rounded-md px-6 py-4 hover:text-black hover:delay-200 hover:ease-in-out"
-                onClick={() => setModalShow(true)}>
+                    onClick={() => setModalShow(true)}>
                     Request a free quote
                 </button>
             </section>

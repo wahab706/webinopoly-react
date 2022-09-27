@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Disclosure } from "@headlessui/react";
 import { RiFacebookBoxFill, RiTwitterFill, RiBehanceFill, RiPinterestFill } from "react-icons/ri";
-import {AiOutlineMail} from 'react-icons/ai';
+import { AiOutlineMail } from 'react-icons/ai';
 import clsx from "clsx";
 import expertise from '../../assets/brand logos/expertise.png';
 import stars from '../../assets/brand logos/5-starts.svg';
@@ -16,60 +16,52 @@ export default function Footer() {
     function desktopIcons() {
         return (
             <>
-                <Link
-                    to={'/'}
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiFacebookBoxFill size={25} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href=" https://twitter.com/Webinopoly"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiTwitterFill size={25} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href=" https://www.behance.net/webinopoly"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiBehanceFill size={25} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href=" https://pinterest.com/webinopoly"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiPinterestFill size={25} />
-                </Link>
+                </a>
             </>
         );
     }
     function mobileIcons() {
         return (
             <>
-                <Link
-                    to={'/'}
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiFacebookBoxFill size={20} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href=" https://twitter.com/Webinopoly"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiTwitterFill size={20} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href="https://www.behance.net/webinopoly "
                     className="font-semibold uppercase text-sm"
                 >
                     <RiBehanceFill size={20} />
-                </Link>
-                <Link
-                    to={'/'}
+                </a>
+                <a href=" https://pinterest.com/webinopoly"
                     className="font-semibold uppercase text-sm"
                 >
                     <RiPinterestFill size={20} />
-                </Link>
+                </a>
             </>
         );
     }
@@ -108,24 +100,39 @@ export default function Footer() {
                                     >
                                         <Disclosure.Panel static>
                                             <nav className={styles.nav}>
-                                                <Link to={'/'}>
+                                                <a href="https://webinopoly.com/pages/about-us ">
                                                     About us
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/web-design">
+                                                    services
+                                                </a>
+                                                <a href="https://webinopoly.com/blogs/news ">
+                                                    blog
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/contact">
                                                     contact us
-                                                </Link>
-                                                <Link to={'/'}>
-                                                    blogs
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/how-it-works">
                                                     how it works
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/reviews">
                                                     reviews
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/meet-the-team">
+                                                    Meet The Team
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/refund-policy">
+                                                    Refund Policy
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/privacy-policy">
+                                                    Privacy Policy
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/complaints">
+                                                    Complaints
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/faq ">
                                                     faq
-                                                </Link>
+                                                </a>
                                             </nav>
                                         </Disclosure.Panel>
                                     </div>
@@ -158,21 +165,42 @@ export default function Footer() {
                                     >
                                         <Disclosure.Panel static>
                                             <nav className={styles.nav}>
-                                                <Link to={'/'}>
+                                                <a href="https://webinopoly.com/pages/shopify-experts ">
                                                     shopify experts
-                                                </Link>
-                                                <Link to={'/'}>
-                                                    figma to shopify
-                                                </Link>
-                                                <Link to={'/'}>
-                                                    web design
-                                                </Link>
-                                                <Link to={'/'}>
-                                                    shopify apps
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/shopify-plus-experts">
+                                                    Shopify Plus Experts
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/figma-to-shopify">
+                                                    Figma To Shopify
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/shop2_0">
                                                     shop 2.0 migration
-                                                </Link>
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/shopify-experts ">
+                                                    Shopify Development
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/shopify-plus-developers ">
+                                                    Shopify Plus Developers
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/web-design">
+                                                    Web Design
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/shopify-developers">
+                                                    Hire Shopify Developers
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/certified-shopify-agency ">
+                                                    Certified Shopify Agency
+                                                </a>
+                                                <a href=" https://webinopoly.com/pages/shopify-apps">
+                                                    Shopify Apps
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/shopify-speed-audit ">
+                                                    Shopify Speed Boost
+                                                </a>
+                                                <a href="https://webinopoly.com/pages/bigcommerce-experts ">
+                                                    Bigcommerce Solutions
+                                                </a>
                                             </nav>
                                         </Disclosure.Panel>
                                     </div>
@@ -200,7 +228,7 @@ export default function Footer() {
 
                                     <div
                                         className={`${open ? `max-h-48 h-fit` : `max-h-0 md:max-h-fit`
-                                            } overflow-hidden transition-all duration-300 capitalize text-sm
+                                            } overflow-hidden transition-all duration-300 capitalize text-xs
                                             text-white opacity-90 font-normal  `}
                                     >
                                         <Disclosure.Panel static>
@@ -209,17 +237,26 @@ export default function Footer() {
                                                     webpinopoly Inc.
                                                 </p>
                                                 <p>
+                                                6464 Savoy dr.
+                                                </p>
+                                                <p>
+                                                Suite 720
+                                                </p>
+                                                <p>
+                                                Houston, TX 77036
+                                                </p>
+                                                <p>
                                                     United States of America
                                                 </p>
-                                                <Link to={'/'}>
+                                                <p>
                                                     Toll: 800-650-9892
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </p>
+                                                <p>
                                                     Tel: 713-805-5888
-                                                </Link>
-                                                <Link to={'/'}>
+                                                </p>
+                                                <p>
                                                     hello@webinopoly.com
-                                                </Link>
+                                                </p>
                                             </nav>
                                         </Disclosure.Panel>
                                     </div>
@@ -267,7 +304,7 @@ export default function Footer() {
                             {new Date().getFullYear()} Webinopoly. All rights reserved
                         </Link>
                     </div>
-                    
+
                     <section className="sm:hidden flex justify-center mt-5 mb-2 gap-3">
                         {mobileIcons()}
                     </section>
@@ -277,12 +314,16 @@ export default function Footer() {
                         </section>
 
                         <section>
+                            <a href="https://www.expertise.com/tx/houston/web-design">
                             <img src={expertise} alt="brand-logo" />
+                            </a>
                         </section>
 
                         <section>
+                            <a href="https://www.trustpilot.com/review/webinopoly.com">
                             <img src={stars} alt="brand-logo" />
                             <img src={trustpilot} alt="brand-logo" />
+                            </a>
                         </section>
                     </div>
 

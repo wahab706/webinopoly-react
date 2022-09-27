@@ -21,40 +21,66 @@ export default function Header() {
                     </li>
 
                     <li className="md:text-xs  xl:text-sm ">
-                        <Link to="/" >
-                            <span className="flex group"> web services  <RiArrowDropDownLine size={20} />
-                                <div className="absolute hidden group-hover:block rounded-b mt-5 bg-blue p-5 pr-10">
-                                    <ul className="flex flex-col gap-2">
-                                        <li>shopify experts </li>
-                                        <li>bigcommerece</li>
-                                        <li>web design</li>
-                                        <li>ecommerece</li>
-                                        <li>mobile apps</li>
-                                        <li>animation</li>
-                                        <li>seo</li>
-                                    </ul>
-                                </div>
-                            </span>
-                        </Link>
+
+                        <span className="flex group">
+                            <a href=" https://webinopoly.com/pages/web-design"
+                                className="flex">
+                                web services  <RiArrowDropDownLine size={20} />
+                            </a>
+
+                            <div className="absolute hidden group-hover:block rounded-b mt-5 bg-blue p-5 pr-10">
+                                <ul className="flex flex-col gap-2">
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/shopify-experts">shopify experts
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/bigcommerce-experts">bigcommerece
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/web-design">web design
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/e-commerce">ecommerece
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/mobile-apps-development">mobile apps
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/animation-interactive">animation
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://webinopoly.com/pages/seo">seo
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </span>
+
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
-                        <Link to="/" > portfolio </Link>
+                        <a href=" https://webinopoly.com/pages/portfolio-2020"  > portfolio </a>
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
-                        <Link to="/" > case studies </Link>
+                        <a href=" https://webinopoly.com/pages/case-studies"  > case studies </a>
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
-                        <Link to="/" > blog </Link>
+                        <a href="https://webinopoly.com/blogs/news "  > blog </a>
                     </li>
 
                     <li className="md:text-xs  xl:text-sm">
-                        <Link to="/" > contact us  </Link>
+                        <a href=" https://webinopoly.com/pages/contact"  > contact us  </a>
                     </li>
                 </ul>
-            </nav>
+            </nav >
         );
     }
 
@@ -63,71 +89,75 @@ export default function Header() {
             <nav className="flex w-full mt-5 ">
                 <ul className="flex flex-col relative mobile-navbar w-full" onClick={() => setToggle(false)}>
                     <li className="text-sm sm:text-base">
-                        <Link to="/" >
+                        <a href=" "  >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                 home
                             </span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li className="">
                         <div className="flex flex-col gap-1">
-                            <Link to="/" >
-                                <span className='flex text-sm sm:text-base'>
+
+                            <span className='flex text-sm sm:text-base'>
+                                <a href="https://webinopoly.com/pages/web-design "  >
                                     <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                     web services  <RiArrowDropDownLine size={20} />
-                                </span>
-                            </Link>
+                                </a>
+                            </span>
+
+
+
                             <div className="nav-sub-heading pl-6 mt-2">
                                 <ul className="flex flex-col gap-1 text-sm">
                                     <li>
-                                        <Link to="/" >
+                                        <a href=" https://webinopoly.com/pages/shopify-experts"  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 shopify experts
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href=" https://webinopoly.com/pages/bigcommerce-experts"  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 bigcommerece
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href="https://webinopoly.com/pages/web-design "  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 web design
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href=" https://webinopoly.com/pages/e-commerce"  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 ecommerece
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href="https://webinopoly.com/pages/mobile-apps-development "  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 mobile apps
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href=" https://webinopoly.com/pages/animation-interactive"  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 animation
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link to="/" >
+                                        <a href=" https://webinopoly.com/pages/seo"  >
                                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={16} />
                                                 seo
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -136,35 +166,35 @@ export default function Header() {
                     </li>
 
                     <li className="text-sm sm:text-base">
-                        <Link to="/" >
+                        <a href="https://webinopoly.com/pages/portfolio-2020 "  >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                 portfolio
                             </span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li className="text-sm sm:text-base">
-                        <Link to="/" >
+                        <a href=" https://webinopoly.com/pages/case-studies"  >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                 case studies
                             </span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li className="text-sm sm:text-base">
-                        <Link to="/" >
+                        <a href=" https://webinopoly.com/blogs/news"  >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                 blog
                             </span>
-                        </Link>
+                        </a>
                     </li>
 
                     <li className="text-sm sm:text-base">
-                        <Link to="/" >
+                        <a href=" https://webinopoly.com/pages/contact"  >
                             <span className='flex gap-1'> <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                 contact us
                             </span>
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -174,21 +204,21 @@ export default function Header() {
     function desktopIcons() {
         return (
             <div className="flex gap-0 header-icons" >
-                <Link to="/" >
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"  >
                     <RiFacebookBoxFill size={22} />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href=" https://twitter.com/Webinopoly"  >
                     <RiTwitterFill size={22} />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href=" https://www.behance.net/webinopoly"  >
                     <RiBehanceFill size={22} />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href=" https://pinterest.com/webinopoly"  >
                     <RiPinterestFill size={22} />
-                </Link>
+                </a>
             </div>
         );
     }
@@ -196,21 +226,21 @@ export default function Header() {
     function tabletIcons() {
         return (
             <div className="flex gap-0 header-icons" >
-                <Link to="/" >
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"  >
                     <RiFacebookBoxFill />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href=" https://twitter.com/Webinopoly"  >
                     <RiTwitterFill />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href="https://www.behance.net/webinopoly "  >
                     <RiBehanceFill />
-                </Link>
+                </a>
 
-                <Link to="/" >
+                <a href=" https://pinterest.com/webinopoly"  >
                     <RiPinterestFill />
-                </Link>
+                </a>
             </div>
         );
     }
@@ -239,9 +269,9 @@ export default function Header() {
                 <div className='flex justify-between items-center w-full'>
 
                     <div className="flex gap-12 md:w-48 lg:w-44 xl:w-48">
-                        <Link className="font-bold" to="/">
+                        <a className="font-bold" href=" " >
                             <img src={logo} alt="logo" />
-                        </Link>
+                        </a>
                     </div>
 
                     <div className='sm:hidden lg:block'>
@@ -302,9 +332,9 @@ export default function Header() {
                                 </button>
 
                                 <div className="flex w-40 sm:w-44">
-                                    <Link className="font-semibold" to="/">
+                                    <a className="font-semibold" href=" " >
                                         <img src={logo} alt="logo" />
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                             {mobileMenu()}
@@ -313,9 +343,9 @@ export default function Header() {
                 </div>
 
                 <div className='flex justify-center items-center w-full'>
-                    <Link className="font-bold" to="/">
+                    <a className="font-bold" href=" " >
                         <img src={logo} alt="logo" />
-                    </Link>
+                    </a>
                 </div>
 
             </header>
