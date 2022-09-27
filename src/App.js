@@ -26,7 +26,7 @@ function App() {
           }
           <Hero setModalShow={setModalShow} />
           <BrandsSlider />
-          <Reviews />
+          <Reviews setModalShow={setModalShow}/>
           <ContactForm toggle={true} />
           <IconsGrid />
           <GridItems />

@@ -11,7 +11,7 @@ import box7 from '../../assets/grid box/box7.webp'
 import box8 from '../../assets/grid box/box8.webp'
 import box9 from '../../assets/grid box/box9.webp'
 
-export default function Reviews() {
+export default function Reviews({ setModalShow }) {
     return (
         <>
             <section className=" flex flex-col justify-center mt-6 lg:py-5">
@@ -127,14 +127,11 @@ export default function Reviews() {
                         </Link>
                     </section>
                 </section>
-                <div className='flex justify-center'>
-                    <Link to='/'>
-                        <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-24 
-                mx-auto rounded-md px-6 py-4 hover:text-black hover:delay-200 hover:ease-in-out">
-                            Request a free quote
-                        </button>
-                    </Link>
-                </div>
+                <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-24 
+                mx-auto rounded-md px-6 py-4 hover:text-black hover:delay-200 hover:ease-in-out"
+                onClick={() => setModalShow(true)}>
+                    Request a free quote
+                </button>
             </section>
 
         </>
