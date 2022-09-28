@@ -6,7 +6,7 @@ function ContactForm({ toggle }) {
     };
     const submitHandle = (e) => {
         e.preventDefault();
-        window.location  = 'https://webinopoly.com/pages/thank-you';
+        window.location = 'https://webinopoly.com/pages/thank-you';
     }
 
     return (
@@ -101,11 +101,13 @@ function ContactForm({ toggle }) {
                         <div className="flex mt-6 w-full">
                             {
                                 toggle ?
-                                    <button className="bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-2xl mx-auto">
+                                    <button className="bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-2xl mx-auto"
+                                        id="submitForm">
                                         get my free website checkup
                                     </button>
                                     :
-                                    <button className="bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-2xl mx-auto">
+                                    <button className="bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-2xl mx-auto"
+                                        id="submitForm">
                                         request a free quote today
                                     </button>
                             }

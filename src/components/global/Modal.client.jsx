@@ -28,7 +28,16 @@ function Modal({ setModalShow }) {
 
                     <div className="justify-center formSection ">
                         <form method="post" action="/contact#ContactForm" onSubmit={submitHandle}
-                            className="w-full  max-w-xl mx-auto">
+                            className="w-full max-w-xl mx-auto">
+
+                            <input type="hidden" name="form_type" value="contact" aria-hidden="true"
+                                data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            </input>
+                            <input type="hidden" name="utf8" value="✓" aria-hidden="true"
+                                data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            </input>
+
+
                             <div className="FormLarge w-full mx-auto">
                                 <input type="text"
                                     placeholder="First name*"
@@ -70,7 +79,8 @@ function Modal({ setModalShow }) {
                                 />
                             </div>
                             <div className="flex mt-4 w-full">
-                                <button className="bg-pink hover:bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 w-full mx-auto">
+                                <button className="bg-pink hover:bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 w-full mx-auto"
+                                    id="submitForm">
                                     Submit
                                 </button>
                             </div>
