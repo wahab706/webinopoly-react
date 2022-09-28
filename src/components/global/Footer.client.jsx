@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { Disclosure } from "@headlessui/react";
 import { RiFacebookBoxFill, RiTwitterFill, RiBehanceFill, RiPinterestFill } from "react-icons/ri";
-import { AiOutlineMail } from 'react-icons/ai';
 import clsx from "clsx";
 import expertise from '../../assets/brand logos/expertise.png';
 import stars from '../../assets/brand logos/5-starts.svg';
