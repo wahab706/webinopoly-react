@@ -31,7 +31,7 @@ function ContactForm({ toggle }) {
                 }
 
                 <div className="justify-center formSection mt-4">
-                    <form method="post" action="/contact#ContactForm"
+                    <form method="post" action="https://webinopoly.com/contact#ContactForm"
                         className="w-full max-w-2xl mx-auto">
 
                         <input type="hidden" name="form_type" value="contact" aria-hidden="true"
@@ -91,7 +91,6 @@ function ContactForm({ toggle }) {
                         <div className="FormLarge gap-4 mt-4 sm:gap-5 sm:mt-5 mx-auto">
                             <input type="text"
                                 placeholder="Description"
-                                required
                                 className={styles.largeInput}
                             />
                         </div>

@@ -178,7 +178,7 @@ input:-webkit-autofill:active {
 .console-underscore {
     display: inline-block;
     position: relative;
-    top: -0.14em;
+    top: 0;
     left: 10px;
 }
 
@@ -369,13 +369,15 @@ input:-webkit-autofill:active {
 /* ------------------------Reviews section----------------------------------- */
 
 .grid-boxes button {
+    margin-top: 16px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    font-size: 22px;
     font-weight: 700;
     color: #343b39;
     text-align: center;
-
 }
+
 
 .grid-boxes button:hover {
     color: #60C77C;
@@ -587,6 +589,7 @@ input:-webkit-autofill:active {
         padding: 13px 28px;
         font-size: 12px;
     }
+   
 }
 
 /* --------------------------Small Screen--------------------- */
@@ -654,8 +657,25 @@ input:-webkit-autofill:active {
         font-size: 13px;
         font-weight: 400;
     }
+    
 }
 
+
+/* --------------------------tablet Screen--------------------- */
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    .grid-details h1::before {
+        top: 2px;
+        width: 30px;
+        height: 38px;
+    }
+
+    .footer-bottom img {
+        width: 110px;
+        height: auto;
+        margin-top: 15px;
+    }
+
+}
 
 /* --------------------------Medium Screen--------------------- */
 
@@ -697,6 +717,10 @@ input:-webkit-autofill:active {
         font-size: 11px;
         padding: 0 5px;
     }
+    .grid-boxes button{
+        font-size: 17px;
+        margin-top: 10px;
+    }
 }
 
 /* --------------------------Large Screen--------------------- */
@@ -723,26 +747,17 @@ input:-webkit-autofill:active {
         font-size: 13px;
         padding: 0 10px;
     }
+    .grid-boxes button{
+        font-size: 17px;
+        margin-top: 10px;
+    }
 }
 
 
 
 /* --------------------------others Screen--------------------- */
 
-@media only screen and (min-width: 640px) and (max-width: 767px) {
-    .grid-details h1::before {
-        top: 2px;
-        width: 30px;
-        height: 38px;
-    }
 
-    .footer-bottom img {
-        width: 110px;
-        height: auto;
-        margin-top: 15px;
-    }
-
-}
 
 @media only screen and (min-width: 200px) and (max-width: 639px) {
     .xs-grid-col-1 {
@@ -780,10 +795,31 @@ input:-webkit-autofill:active {
     .accordation p {
         font-size: 15px;
     }
+    .grid-boxes button{
+        font-size: 16px;
+        margin-top: 10px;
+    }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1023px) {
     .md-screen-hidden {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    .grid-boxes{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .reviews-main{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .grid-boxes img{
+        padding: 10px;
+    }
+    .grid-boxes button{
+        font-size: 16px;
+        margin-top: 1px;
     }
 }

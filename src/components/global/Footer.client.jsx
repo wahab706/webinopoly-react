@@ -298,8 +298,8 @@ export default function Footer() {
 
                     <hr className=" mb-4 w-full opacity-50" />
                     <div >
-                        &copy;
-                        <Link to="/" className="text-xs sm:text-sm">
+                        &copy; &nbsp;
+                        <Link to="/" className="text-xs sm:text-sm opacity-85">
                             {new Date().getFullYear()} Webinopoly. All rights reserved
                         </Link>
                     </div>

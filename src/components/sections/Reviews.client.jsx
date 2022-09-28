@@ -40,16 +40,16 @@ export default function Reviews({ setModalShow }) {
 
             </section>
 
-            <section className="grid reviews-main lg:py-5 px-8 md:px-10 lg:px-12 xl:px-16 mt-10 ">
+            <section className="grid reviews-main lg:py-5 px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-10 ">
 
                 <section className="grid-box grid items-start grid-flow-row w-full grid-boxes
-              xs-grid-col-1 sm:grid-cols-2 lg:grid-cols-3
+              grid-cols-1 sm:grid-cols-2 md:grid-cols-3
                 sm:gap-4 md:gap-6 lg:gap-8">
 
                     <section>
                         <a href=" https://www.puravidabracelets.com/" className="grid justify-center">
                             <img src={box1} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 PURAVIDA BRACELETS
                             </button>
                         </a>
@@ -58,7 +58,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href=" https://shoppalomaandco.com/" className="grid justify-center">
                             <img src={box2} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 PALOMA AND CO
                             </button>
                         </a>
@@ -67,7 +67,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href=" https://www.ghostlifestyle.com/" className="grid justify-center">
                             <img src={box3} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 GHOST LIFESTYLE
                             </button>
                         </a>
@@ -76,7 +76,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href="https://www.polyandbark.com/ " className="grid justify-center">
                             <img src={box4} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 POLYANDBARK
                             </button>
                         </a>
@@ -85,7 +85,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href=" https://www.fashionnova.com/" className="grid justify-center">
                             <img src={box5} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 FASHIONNOVA
                             </button>
                         </a>
@@ -94,7 +94,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href="https://alphaleteathletics.com/ " className="grid justify-center">
                             <img src={box6} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 ALPHALETEATHLETICS
                             </button>
                         </a>
@@ -103,7 +103,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href="https://buffy.co/ " className="grid justify-center">
                             <img src={box7} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 BUFFY
                             </button>
                         </a>
@@ -112,7 +112,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href=" https://happyboxstore.com/" className="grid justify-center">
                             <img src={box8} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 HAPPY BOX STORE
                             </button>
                         </a>
@@ -121,7 +121,7 @@ export default function Reviews({ setModalShow }) {
                     <section>
                         <a href="https://oliversapparel.com/ " className="grid justify-center">
                             <img src={box9} alt="logo" />
-                            <button className="mini:text-lg md:text-lg lg:text-xl">
+                            <button>
                                 OLIVERSAPPAREL
                             </button>
                         </a>
