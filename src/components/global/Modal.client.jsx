@@ -6,6 +6,11 @@ function Modal({ setModalShow }) {
         largeInput: 'h-24 px-4 md:px-6 text-sm sm:text-base md:text-lg',
     };
 
+    const submitHandle = (e) => {
+        e.preventDefault();
+        window.location = 'https://webinopoly.com/pages/thank-you';
+    }
+
     return (
         <>
             <div className='fixed z-40 bg-black-modal  w-full h-full modal-anim'>
@@ -22,8 +27,9 @@ function Modal({ setModalShow }) {
                     </p>
 
                     <div className="justify-center formSection ">
-                        <form method="post" action="/contact#ContactForm" className="w-full">
-                            <div className="FormLarge max-w-xl mx-auto">
+                        <form method="post" action="/contact#ContactForm" onSubmit={submitHandle}
+                            className="w-full  max-w-xl mx-auto">
+                            <div className="FormLarge w-full mx-auto">
                                 <input type="text"
                                     placeholder="First name*"
                                     required
@@ -31,7 +37,7 @@ function Modal({ setModalShow }) {
                                 />
                             </div>
 
-                            <div className="FormLarge mt-3 max-w-xl mx-auto">
+                            <div className="FormLarge mt-3 w-full mx-auto">
                                 <input type="text"
                                     placeholder="Last name*"
                                     required
@@ -40,7 +46,7 @@ function Modal({ setModalShow }) {
                                 />
                             </div>
 
-                            <div className="FormLarge mt-3 max-w-xl mx-auto">
+                            <div className="FormLarge mt-3 w-full mx-auto">
                                 <input type="email"
                                     placeholder="Your Email*"
                                     required
@@ -48,7 +54,7 @@ function Modal({ setModalShow }) {
                                 />
                             </div>
 
-                            <div className="FormLarge mt-3 max-w-xl mx-auto">
+                            <div className="FormLarge mt-3 w-full mx-auto">
                                 <input type="tel"
                                     placeholder="Phone number*"
                                     required
@@ -57,15 +63,14 @@ function Modal({ setModalShow }) {
                             </div>
 
 
-                            <div className="FormLarge mt-3 max-w-xl mx-auto">
+                            <div className="FormLarge mt-3 w-full mx-auto">
                                 <input type="text"
                                     placeholder="Description"
-                                    required
                                     className={styles.largeInput}
                                 />
                             </div>
                             <div className="flex mt-4 w-full">
-                                <button className="bg-pink hover:bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 max-w-xl mx-auto">
+                                <button className="bg-pink hover:bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 w-full mx-auto">
                                     Submit
                                 </button>
                             </div>
