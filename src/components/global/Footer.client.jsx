@@ -17,21 +17,21 @@ export default function Footer() {
         return (
             <>
                 <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"
-                    className="font-semibold uppercase text-sm"
+                    target='blank' className="font-semibold uppercase text-sm"
                 >
                     <RiFacebookBoxFill size={25} />
                 </a>
-                <a href=" https://twitter.com/Webinopoly"
+                <a href=" https://twitter.com/Webinopoly" target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiTwitterFill size={25} />
                 </a>
-                <a href=" https://www.behance.net/webinopoly"
+                <a href=" https://www.behance.net/webinopoly" target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiBehanceFill size={25} />
                 </a>
-                <a href=" https://pinterest.com/webinopoly"
+                <a href=" https://pinterest.com/webinopoly" target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiPinterestFill size={25} />
@@ -43,21 +43,21 @@ export default function Footer() {
         return (
             <>
                 <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"
-                    className="font-semibold uppercase text-sm"
+                    target='blank' className="font-semibold uppercase text-sm"
                 >
                     <RiFacebookBoxFill size={20} />
                 </a>
-                <a href=" https://twitter.com/Webinopoly"
+                <a href=" https://twitter.com/Webinopoly" target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiTwitterFill size={20} />
                 </a>
-                <a href="https://www.behance.net/webinopoly "
+                <a href="https://www.behance.net/webinopoly " target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiBehanceFill size={20} />
                 </a>
-                <a href=" https://pinterest.com/webinopoly"
+                <a href=" https://pinterest.com/webinopoly" target='blank'
                     className="font-semibold uppercase text-sm"
                 >
                     <RiPinterestFill size={20} />
@@ -95,8 +95,8 @@ export default function Footer() {
 
                                     <div
                                         className={`${open ? `max-h-48 h-fit` : `max-h-0 md:max-h-fit`
-                                            } overflow-hidden transition-all duration-300 capitalize text-sm
-                                            text-white opacity-90 font-normal `}
+                                            } overflow-hidden transition-all duration-300 capitalize 
+                                            text-white opacity-90 footer-menu `}
                                     >
                                         <Disclosure.Panel static>
                                             <nav className={styles.nav}>
@@ -160,8 +160,8 @@ export default function Footer() {
 
                                     <div
                                         className={`${open ? `max-h-48 h-fit` : `max-h-0 md:max-h-fit`
-                                            } overflow-hidden transition-all duration-300 capitalize text-sm 
-                                            text-white opacity-90 font-normal  `}
+                                            } overflow-hidden transition-all duration-300 capitalize 
+                                            text-white opacity-90 footer-menu  `}
                                     >
                                         <Disclosure.Panel static>
                                             <nav className={styles.nav}>
@@ -228,8 +228,8 @@ export default function Footer() {
 
                                     <div
                                         className={`${open ? `max-h-48 h-fit` : `max-h-0 md:max-h-fit`
-                                            } overflow-hidden transition-all duration-300 capitalize text-xs
-                                            text-white opacity-90 font-normal  `}
+                                            } overflow-hidden transition-all duration-300 capitalize footer-contact
+                                            text-white opacity-90  `}
                                     >
                                         <Disclosure.Panel static>
                                             <nav className={styles.nav}>
@@ -248,15 +248,14 @@ export default function Footer() {
                                                 <p>
                                                     United States of America
                                                 </p>
-                                                <p>
-                                                    Toll: 800-650-9892
-                                                </p>
-                                                <p>
-                                                    Tel: 713-805-5888
-                                                </p>
-                                                <p>
-                                                    hello@webinopoly.com
-                                                </p>
+                                                <br />
+
+                                                <a href="tel:800-650-9892" >
+                                                    Toll: 800-650-9892</a>
+                                                <a href="tel:713-805-5888" >
+                                                    Tel: 713-805-5888</a>
+                                                <a href="mailto:hello@webinopoly.com" >
+                                                    hello@webinopoly.com</a>
                                             </nav>
                                         </Disclosure.Panel>
                                     </div>
@@ -265,9 +264,9 @@ export default function Footer() {
                         </Disclosure>
                     </section>
 
-                    <section className="">
+                    <section className="footer-form">
                         <h2 className="uppercase font-bold">Newsletter</h2>
-                        <p className="capitalize text-xs text-white font-normal mt-3 leading-relaxed tracking-wider opacity-90">
+                        <p className="capitalize text-white l mt-3 leading-relaxed tracking-wider opacity-90">
                             Sign up to get exclusive offers from our favorite products and to be kept
                             up-to-date on the latest news.
                         </p>
@@ -279,7 +278,7 @@ export default function Footer() {
                             <input type="hidden" name="contact[tags]" value="newsletter" />
                             <input
                                 className="form-input mr-4 text-white placeholder-white placeholder-opacity-90 
-                                bg-blue rounded-2xl border text-sm xl:text-base
+                                bg-blue rounded-3xl border text-sm 
                                 pl-6 py-1.5 h-10 w-full outline-none "
                                 type="email"
                                 name="contact[email]"

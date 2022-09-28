@@ -36,11 +36,11 @@
     color: #e7277c;
 }
 
-.call-para{
+.call-para {
     font-size: 14px;
     font-family: 'Work Sans', sans-serif !important;
     line-height: 20px;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.04em;
     font-weight: 500;
 }
 
@@ -130,6 +130,31 @@
     height: auto;
 }
 
+.footer-menu a {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.footer-contact p,
+.footer-contact a {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.footer-contact br {
+    display: block;
+    content: "";
+    margin-top: 0;
+}
+
+.footer-form p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
 /* ------------------------Hero section----------------------------------- */
 
 .console-underscore {
@@ -151,8 +176,9 @@
 
 .small-banner button {
     padding: 14px 35px;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
 }
 
 

@@ -100,7 +100,7 @@ export default function Header() {
                         <div className="flex flex-col gap-1">
 
                             <span className='flex text-sm sm:text-base'>
-                                <a href="https://webinopoly.com/pages/web-design "  className='flex'>
+                                <a href="https://webinopoly.com/pages/web-design " className='flex'>
                                     <MdArrowDropDown className='mobile-dropdwon-icon' size={18} />
                                     web services  <RiArrowDropDownLine size={20} />
                                 </a>
@@ -204,19 +204,19 @@ export default function Header() {
     function desktopIcons() {
         return (
             <div className="flex gap-0 header-icons" >
-                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"  >
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true" target='blank' >
                     <RiFacebookBoxFill size={22} />
                 </a>
 
-                <a href=" https://twitter.com/Webinopoly"  >
+                <a href=" https://twitter.com/Webinopoly" target='blank' >
                     <RiTwitterFill size={22} />
                 </a>
 
-                <a href=" https://www.behance.net/webinopoly"  >
+                <a href=" https://www.behance.net/webinopoly" target='blank' >
                     <RiBehanceFill size={22} />
                 </a>
 
-                <a href=" https://pinterest.com/webinopoly"  >
+                <a href=" https://pinterest.com/webinopoly" target='blank'>
                     <RiPinterestFill size={22} />
                 </a>
             </div>
@@ -226,19 +226,19 @@ export default function Header() {
     function tabletIcons() {
         return (
             <div className="flex gap-0 header-icons" >
-                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true"  >
+                <a href=" https://www.facebook.com/pages/Webinopoly/435847599833649?skip_nax_wizard=true" target='blank' >
                     <RiFacebookBoxFill />
                 </a>
 
-                <a href=" https://twitter.com/Webinopoly"  >
+                <a href=" https://twitter.com/Webinopoly" target='blank' >
                     <RiTwitterFill />
                 </a>
 
-                <a href="https://www.behance.net/webinopoly "  >
+                <a href="https://www.behance.net/webinopoly " target='blank'>
                     <RiBehanceFill />
                 </a>
 
-                <a href=" https://pinterest.com/webinopoly"  >
+                <a href=" https://pinterest.com/webinopoly" target='blank' >
                     <RiPinterestFill />
                 </a>
             </div>
@@ -286,9 +286,10 @@ export default function Header() {
                             {tabletIcons()}
                         </div>
                         <div className="mt-2">
-                            <p className="text-white md:text-xs xl:text-sm font-medium call-para" >
+                            <a href="tel:713-805-5888"
+                                className="text-white md:text-xs xl:text-sm font-medium call-para">
                                 CALL - (713) 805-5888
-                            </p>
+                            </a>
                         </div>
 
                     </div>
