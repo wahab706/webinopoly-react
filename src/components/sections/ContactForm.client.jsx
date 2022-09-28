@@ -32,7 +32,7 @@ function ContactForm({ toggle }) {
 
                 <div className="justify-center formSection mt-4">
                     <form method="post" action="/contact#ContactForm" className="w-full">
-                        <div className="FormSmall gap-5 max-w-2xl mx-auto">
+                        <div className="FormSmall gap-5 w-full max-w-2xl mx-auto">
                             <input type="text"
                                 placeholder="First name*"
                                 required
@@ -48,7 +48,7 @@ function ContactForm({ toggle }) {
                         </div>
                         {
                             toggle ?
-                                <div className="FormSmall gap-5 mt-5 md:mt-6 max-w-2xl mx-auto">
+                                <div className="FormSmall gap-5 mt-5 md:mt-6 w-full max-w-2xl mx-auto">
                                     <input type="email"
                                         placeholder="Email*"
                                         required
@@ -62,14 +62,14 @@ function ContactForm({ toggle }) {
                                 </div>
                                 :
                                 <>
-                                    <div className="FormLarge  mt-5 md:mt-6 max-w-2xl mx-auto">
+                                    <div className="FormLarge  mt-5 md:mt-6 w-full max-w-2xl mx-auto">
                                         <input type="email"
                                             placeholder="Email*"
                                             required
                                             className={styles.smallInput}
                                         />
                                     </div>
-                                    <div className="FormLarge  mt-5 md:mt-6 max-w-2xl mx-auto">
+                                    <div className="FormLarge  mt-5 md:mt-6 w-full max-w-2xl mx-auto">
                                         <input type="tel"
                                             placeholder="Phone number*"
                                             required
