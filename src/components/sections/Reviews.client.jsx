@@ -14,7 +14,7 @@ import box9 from '../../assets/grid box/box9.webp'
 export default function Reviews({ setModalShow }) {
     return (
         <>
-            <section className=" flex flex-col justify-center mt-0 lg:py-5">
+            <section className=" flex flex-col justify-center mt-0 lg:pb-5">
                 <h2 className="uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
                     our reviews
                 </h2>
