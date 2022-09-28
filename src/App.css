@@ -228,7 +228,7 @@ input:-webkit-autofill:active {
 }
 
 .grid-box section {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .slick-dots {
@@ -798,6 +798,9 @@ input:-webkit-autofill:active {
     .grid-boxes button{
         font-size: 16px;
         margin-top: 10px;
+    }
+    .grid-box section {
+        margin-top: 1rem;
     }
 }
 
