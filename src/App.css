@@ -221,11 +221,37 @@ input:-webkit-autofill:active {
 
 }
 
+/* .slick-prev:before,
+.slick-next:before {
+    color: #d2d2d2 !important;
+    opacity: 0.7;
+} */
+
 .slick-prev:before,
 .slick-next:before {
-    color: #c3c3c3 !important;
-    opacity: 0.65;
+    content: "";
+    font-size: 20px;
+    line-height: 1;
+    color: #000;
+    opacity: .75;
+    -webkit-font-smoothing: antialiased;
 }
+
+.slick-prev{
+    background: url(./assets/arrow-prev.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    /* left: -45px; */
+}
+.slick-next{
+    background: url(./assets/arrow-next.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    /* right: -45px; */
+}
+
 
 
 
@@ -608,6 +634,8 @@ input:-webkit-autofill:active {
         padding: 13px 28px;
         font-size: 12px;
     }
+
+    
    
 }
 
@@ -822,6 +850,8 @@ input:-webkit-autofill:active {
     .grid-box section {
         margin-top: 1rem;
     }
+    
+    
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1023px) {
