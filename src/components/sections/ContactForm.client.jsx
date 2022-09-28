@@ -1,17 +1,17 @@
 function ContactForm({ toggle }) {
 
     const styles = {
-        smallInput: 'h-9 sm:h-12 md:h-16 px-4 md:px-6 text-sm sm:text-base md:text-lg',
+        smallInput: 'h-10 sm:h-11 md:h-16 px-4 md:px-6 text-sm sm:text-base md:text-lg',
         largeInput: 'h-24 px-4 md:px-6 text-sm sm:text-base md:text-lg',
     };
 
     return (
         <>
-            <section className={toggle ? 'bg-dark-blue contactForm-section mt-2 sm:px-14 py-10 sm:py-12 md:py-16 w-full' :
-                'bg-lighter-pink contactForm-section mt-4 sm:px-14 py-10 sm:py-12 md:py-16 w-full'}>
+            <section className={toggle ? 'bg-dark-blue contactForm-section mt-2 sm:px-10 py-10 sm:py-12 md:py-16 w-full' :
+                'bg-lighter-pink contactForm-section mt-4 sm:px-10 py-10 sm:py-12 md:py-16 w-full'}>
                 {toggle ?
                     <>
-                        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl ">
+                        <h2 className="text-white text-2xl sm:text-3xl md:text-4xl">
                             Let's discuss your project
                         </h2>
 
@@ -31,8 +31,11 @@ function ContactForm({ toggle }) {
                 }
 
                 <div className="justify-center formSection mt-4">
-                    <form method="post" action="/contact#ContactForm" className="w-full">
-                        <div className="FormSmall gap-5 w-full max-w-2xl mx-auto">
+                    <form method="post" action="/contact#ContactForm"
+                        className="w-full max-w-2xl mx-auto">
+
+
+                        <div className="FormSmall gap-3 sm:gap-5 w-full mx-auto">
                             <input type="text"
                                 placeholder="First name*"
                                 required
@@ -48,7 +51,7 @@ function ContactForm({ toggle }) {
                         </div>
                         {
                             toggle ?
-                                <div className="FormSmall gap-5 mt-5 md:mt-6 w-full max-w-2xl mx-auto">
+                                <div className="FormSmall gap-3 mt-4 sm:gap-5 sm:mt-5 w-full mx-auto">
                                     <input type="email"
                                         placeholder="Email*"
                                         required
@@ -62,14 +65,14 @@ function ContactForm({ toggle }) {
                                 </div>
                                 :
                                 <>
-                                    <div className="FormLarge  mt-5 md:mt-6 w-full max-w-2xl mx-auto">
+                                    <div className="FormLarge gap-4 mt-4 sm:gap-5 sm:mt-5 w-full  mx-auto">
                                         <input type="email"
                                             placeholder="Email*"
                                             required
                                             className={styles.smallInput}
                                         />
                                     </div>
-                                    <div className="FormLarge  mt-5 md:mt-6 w-full max-w-2xl mx-auto">
+                                    <div className="FormLarge gap-4 mt-4 sm:gap-5 sm:mt-5 w-full mx-auto">
                                         <input type="tel"
                                             placeholder="Phone number*"
                                             required
@@ -79,7 +82,7 @@ function ContactForm({ toggle }) {
                                 </>
                         }
 
-                        <div className="FormLarge mt-5 md:mt-6 max-w-2xl mx-auto">
+                        <div className="FormLarge gap-4 mt-4 sm:gap-5 sm:mt-5 mx-auto">
                             <input type="text"
                                 placeholder="Description"
                                 required
