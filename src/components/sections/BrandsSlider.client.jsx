@@ -45,13 +45,13 @@ function BrandsSlider() {
     };
     return (
         <>
-            <section className="flex flex-col justify-center -mt-7 sm:-mt-6 md:mt-4 md:py-4 
+            <section className="flex flex-col justify-center -mt-7 sm:-mt-6 md:mt-4 
           px-12 md:px-24 lg:px-32 xl:px-44 2xl:px-64 mini-slider xs-slider ">
                 <h2 className="uppercase tracking-wider sm:text-base font-semibold font-MontSerif text-light-black text-center">
                     we worked these top brands
                 </h2>
 
-                <div className="mt-2 sm:mt-4 md:mt-5 lg:mt-6  pb-5 w-full justify-center mx-auto">
+                <div className="mt-2 sm:mt-4  pb-5 w-full justify-center mx-auto">
                     <Slider {...settings}>
                         <li >
                             <div className="slider-img-div">
@@ -112,7 +112,7 @@ function BrandsSlider() {
 
                         
                     </Slider>
-                    <hr className='h-1 max-w-4xl justify-center mx-auto text-slate mt-1 md:mt-3 lg:mt-5'/>
+                    <hr className='h-1 max-w-4xl justify-center mx-auto text-slate mt-1 md:mt-3'/>
                 </div>
             </section>
         </>

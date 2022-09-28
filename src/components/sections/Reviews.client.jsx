@@ -21,7 +21,7 @@ export default function Reviews({ setModalShow }) {
                 </h2>
 
                 <section className="grid grid-flow-row mx-auto reviews-brand
-                mini:grid-cols-1 xs:grid-cols-2 md:gap-4 mini:gap-y-6 mt-6 md:mt-8">
+                mini:grid-cols-1 xs:grid-cols-2 md:gap-4 mini:gap-y-6 mt-6">
 
                     <a href="https://www.trustpilot.com/review/webinopoly.com " className='justify-between'>
                         <img src={trustpilot} alt="logo" className='w-auto h-18 mx-auto' />
@@ -41,7 +41,7 @@ export default function Reviews({ setModalShow }) {
 
             </section>
 
-            <section className="grid reviews-main pt-8 md:pt-10 lg:pt-8 pb-6  px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-12 ">
+            <section className="grid reviews-main pt-6 md:pt-8 lg:pt-6 pb-6  px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-12 ">
 
                 <section className="grid-box grid items-start grid-flow-row w-full grid-boxes
               grid-cols-1 sm:grid-cols-2 md:grid-cols-3
