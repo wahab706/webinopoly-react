@@ -155,6 +155,24 @@
     line-height: 20px;
 }
 
+.footer-form input{
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.footer-form button{
+    font-size: 14px;
+    padding: 0 14px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}
+
 /* ------------------------Hero section----------------------------------- */
 
 .console-underscore {
@@ -670,6 +688,15 @@
         height: auto;
         margin-top: 15px;
     }
+    .footer-form input{
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    
+    .footer-form button{
+        font-size: 11px;
+        padding: 0 5px;
+    }
 }
 
 /* --------------------------Large Screen--------------------- */
@@ -685,6 +712,19 @@
         padding-left: 55px;
     }
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .footer-form input{
+        font-size: 13px;
+        padding-left: 17px;
+    }
+    
+    .footer-form button{
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}
+
 
 
 /* --------------------------others Screen--------------------- */

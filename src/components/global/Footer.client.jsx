@@ -276,17 +276,17 @@ export default function Footer() {
                             action="/contact#contact_form"
                         >
                             <input type="hidden" name="contact[tags]" value="newsletter" />
-                            <input
-                                className="form-input mr-4 text-white placeholder-white placeholder-opacity-90 
-                                bg-blue rounded-3xl border text-sm 
-                                pl-6 py-1.5 h-10 w-full outline-none "
-                                type="email"
+                            <input type="email"
+                                className='mr-4 text-white placeholder-white placeholder-opacity-90 
+                                 bg-blue rounded-3xl border
+                                py-1.5 h-11 md:h-10 lg:h-11 w-full outline-none'
                                 name="contact[email]"
                                 placeholder="Enter your email"
                                 required
                             />
-                            <button type="submit" className="absolute right-3 top-2 ">
-                                <AiOutlineMail size={22} />
+                            <button className='absolute top-0 bottom-0 right-0 text-white bg-pink 
+                            rounded-r-3xl border-r border-t border-b '>
+                                Subscribe
                             </button>
                         </form>
                     </section>
