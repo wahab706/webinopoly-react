@@ -4,6 +4,10 @@ function ContactForm({ toggle }) {
         smallInput: 'h-10 sm:h-11 md:h-16 px-4 md:px-6 text-sm sm:text-base md:text-lg',
         largeInput: 'h-24 px-4 md:px-6 text-sm sm:text-base md:text-lg',
     };
+    const submitHandle = (e) => {
+        e.preventDefault();
+        window.location  = 'https://webinopoly.com/pages/thank-you';
+    }
 
     return (
         <>
@@ -31,7 +35,7 @@ function ContactForm({ toggle }) {
                 }
 
                 <div className="justify-center formSection mt-4">
-                    <form method="post" action="/contact#ContactForm"
+                    <form method="post" action="/contact#ContactForm" onSubmit={submitHandle}
                         className="w-full max-w-2xl mx-auto">
 
                         <input type="hidden" name="form_type" value="contact" aria-hidden="true"
