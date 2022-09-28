@@ -14,24 +14,25 @@ import box9 from '../../assets/grid box/box9.webp'
 export default function Reviews({ setModalShow }) {
     return (
         <>
-            <section className=" flex flex-col justify-center mt-0 lg:pb-5">
-                <h2 className="uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center">
+            <section className=" flex flex-col justify-center mt-0 lg:pb-5 ">
+                <h2 className="uppercase tracking-wider font-semibold font-MontSerif text-light-black text-center
+                our-reviews-heading">
                     our reviews
                 </h2>
 
-                <section className="grid grid-flow-row mx-auto 
-                mini:grid-cols-1 xs:grid-cols-2 md:gap-4 mini:gap-y-10 mt-10">
+                <section className="grid grid-flow-row mx-auto reviews-brand
+                mini:grid-cols-1 xs:grid-cols-2 md:gap-4 mini:gap-y-6 mt-6 md:mt-8">
 
                     <a href="https://www.trustpilot.com/review/webinopoly.com " className='justify-between'>
                         <img src={trustpilot} alt="logo" className='w-auto h-18 mx-auto' />
-                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
+                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center opacity-90">
                             100+ 5-STAR TESTIMONIALS
                         </h2>
                     </a>
 
                     <a href=" https://www.google.com/search?q=webinopoly+review&oq=webinopoly+review&aqs=chrome..69i57j0j69i60l3.5495j0j1&sourceid=chrome&ie=UTF-8#lrd=0x8640ec9266c7f16d:0x1e1380633ccaf7e3,1,," className='justify-between'>
                         <img src={google} alt="logo" className='w-auto h-18 mx-auto' />
-                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center">
+                        <h2 className="mt-5 uppercase tracking-wider font-semibold font-MontSerif text-lighter-black text-center opacity-90">
                             180+ 5-STAR REVIEWS
                         </h2>
                     </a>
@@ -40,11 +41,11 @@ export default function Reviews({ setModalShow }) {
 
             </section>
 
-            <section className="grid reviews-main lg:py-5 px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-10 ">
+            <section className="grid reviews-main pt-8 md:pt-10 lg:pt-8 pb-6  px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-12 ">
 
                 <section className="grid-box grid items-start grid-flow-row w-full grid-boxes
               grid-cols-1 sm:grid-cols-2 md:grid-cols-3
-                sm:gap-4 md:gap-6 lg:gap-8">
+              mini:gap-y-2  sm:gap-4 md:gap-6 lg:gap-8">
 
                     <section>
                         <a href=" https://www.puravidabracelets.com/" className="grid justify-center">
@@ -127,8 +128,9 @@ export default function Reviews({ setModalShow }) {
                         </a>
                     </section>
                 </section>
-                <button className="text-white text-sm bg-parrot uppercase justify-center w-56 mt-24 
-                mx-auto rounded-md px-6 py-4 hover:text-black hover:delay-200 hover:ease-in-out"
+                <button className="text-white text-sm bg-parrot uppercase justify-center w-56 
+              mt-14 md:mt-10 lg:mt-12 xl:mt-16 2xl:mt-20 mx-auto px-6 sm:py-4 py-3
+                rounded-md  hover:text-black hover:delay-200 hover:ease-in-out"
                     onClick={() => setModalShow(true)}>
                     Request a free quote
                 </button>

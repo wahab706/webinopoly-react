@@ -12,6 +12,10 @@ export default function Footer() {
         nav: "grid gap-2 pb-6",
     };
 
+    const submitHandle = (e) => {
+        e.preventDefault();
+    }
+
     function desktopIcons() {
         return (
             <>
@@ -272,9 +276,20 @@ export default function Footer() {
                         <form
                             className="contactUs-from mb-5 mt-4 relative"
                             method="post"
-                            action="/contact#contact_form"
+                            action="/contact#ContactFooter"
+                            id='ContactFooter'
+                            onSubmit={submitHandle}
                         >
-                            <input type="hidden" name="contact[tags]" value="newsletter" />
+                            <input type="hidden" name="form_type" value="customer" aria-hidden="true"
+                                data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            </input>
+                            <input type="hidden" name="utf8" value="✓"
+                                aria-hidden="true" data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            </input>
+                            <input type="hidden" name="contact[tags]" value="newsletter" aria-hidden="true"
+                                data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            </input>
+
                             <input type="email"
                                 className='mr-4 text-white placeholder-white placeholder-opacity-90 
                                  bg-blue rounded-3xl border
@@ -284,7 +299,8 @@ export default function Footer() {
                                 required
                             />
                             <button className='absolute top-0 bottom-0 right-0 text-white bg-pink 
-                            rounded-r-3xl border-r border-t border-b '>
+                            rounded-r-3xl border-r border-t border-b '
+                            id="submitForm">
                                 Subscribe
                             </button>
                         </form>

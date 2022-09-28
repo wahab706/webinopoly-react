@@ -227,9 +227,7 @@ input:-webkit-autofill:active {
     opacity: 0.65;
 }
 
-.grid-box section {
-    margin-top: 1.5rem;
-}
+
 
 .slick-dots {
     display: none !important;
@@ -384,6 +382,10 @@ input:-webkit-autofill:active {
     color: #60C77C;
 }
 
+.grid-box section {
+    margin-top: 1.5rem;
+}
+
 .reviews-main {
     max-width: 1630px;
     margin: 0 auto;
@@ -507,6 +509,22 @@ input:-webkit-autofill:active {
         padding-right: 42px;
     }
 
+    .mini-slider h2{
+        font-size: 15px;
+    }
+
+    .our-reviews-heading{
+        font-size: 15px;
+    }
+
+    .reviews-brand h2{
+        font-size: 14px;
+    }
+
+    .reviews-brand{
+        margin-top: 28px;
+    }
+
     .grid-details h1::before {
         top: 2px;
         width: 28px;
@@ -600,6 +618,7 @@ input:-webkit-autofill:active {
         padding-left: 55px;
         padding-right: 55px;
     }
+
 
     .grid-details h1::before {
         top: 2px;
