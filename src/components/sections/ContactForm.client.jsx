@@ -39,10 +39,10 @@ function ContactForm({ toggle }) {
                         className="w-full max-w-2xl mx-auto">
 
                         <input type="hidden" name="form_type" value="contact" aria-hidden="true"
-                            data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            data-acsb-hidden="true" tabIndex="-1" data-acsb-now-navigable="false">
                         </input>
                         <input type="hidden" name="utf8" value="✓" aria-hidden="true"
-                            data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                            data-acsb-hidden="true" tabIndex="-1" data-acsb-now-navigable="false">
                         </input>
 
                         <div className="FormSmall gap-3 sm:gap-5 w-full mx-auto">
