@@ -21,7 +21,7 @@ export default function GridItems() {
                 {/* ------------------Section Grid1 starts here----------------- */}
 
                 <h1 className="gridItems-heading uppercase tracking-wider sm:text-3xl lg:text-4xl font-semibold 
-                text-center text-semi-black mt-20 px-12">
+                text-center text-semi-black mt-18 px-12">
                     #1 SHOPIFY EXPERTS, DESIGNERS & DEVELOPERS
                 </h1>
                 {/* grid grid-flow-row */}

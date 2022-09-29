@@ -12,7 +12,7 @@
 
 /* ------------------------Header section----------------------------------- */
 
-.header-sticky{
+.header-sticky {
     position: fixed;
     background-color: #120d45;
     box-shadow: 0 0 10px #0006;
@@ -20,11 +20,11 @@
     padding-bottom: 20px !important;
 }
 
-.header-sticky .group div{
+.header-sticky .group div {
     background-color: #120d45;
 }
 
-.header-sticky .icons-div{
+.header-sticky .icons-div {
     margin-top: 0px;
 }
 
@@ -53,7 +53,7 @@
     color: white;
 }
 
-.call-action{
+.call-action {
     margin-top: 10px;
 }
 
@@ -62,7 +62,7 @@
     font-family: 'Work Sans', sans-serif !important;
     line-height: 20px;
     letter-spacing: 0.02em;
-    font-weight: 500;  
+    font-weight: 500;
 }
 
 .mobile-navbar li {
@@ -278,7 +278,7 @@ input:-webkit-autofill:active {
 }
 
 .slick-next:hover,
-.slick-next:focus{
+.slick-next:focus {
     background: url(./assets/arrow-next.png) no-repeat;
 }
 
@@ -403,7 +403,6 @@ input:-webkit-autofill:active {
 .iconsGrid {
     max-width: 900px;
     justify-content: center;
-
 }
 
 .iconsGrid img {
@@ -896,7 +895,7 @@ input:-webkit-autofill:active {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1080px) {
-    .max-header{
+    .max-header {
         padding-right: 70px !important;
         padding-left: 35px !important;
     }
