@@ -13,7 +13,7 @@
 /* ------------------------Header section----------------------------------- */
 
 .header-sticky {
-    position: fixed;
+    position: fixed ;
     background-color: #120d45;
     box-shadow: 0 0 10px #0006;
     padding-top: 20px !important;

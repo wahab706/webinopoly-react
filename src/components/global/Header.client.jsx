@@ -13,13 +13,16 @@ export default function Header() {
     const [modalShow, setModalShow] = useState(false)
 
     const listenToScroll = () => {
-        let header = document.getElementById('desktopHeader');
+        let desktopHeader = document.getElementById('desktopHeader') ; 
+        let mobileHeader = document.getElementById('mobileHeader');
         let scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
         if(scrollValue < 200){
-            header.classList.remove('header-sticky');
+            desktopHeader.classList.remove('header-sticky');
+            mobileHeader.classList.remove('header-sticky');
         }
         else{
-            header.classList.add('header-sticky');
+            desktopHeader.classList.add('header-sticky');
+            mobileHeader.classList.add('header-sticky');
         }  
     };
 
@@ -325,8 +328,9 @@ export default function Header() {
 
             <header
                 role="banner"
-                className='md:hidden flex w-full z-40 top-0 leading-none gap-4 antialiased transition bg-blue fixed
-                py-5
+                id='mobileHeader'
+                className='md:hidden flex w-full z-40 top-0 leading-none gap-4 antialiased transition
+                 bg-blue absolute py-5
                 '
             >
                 {toggle ? "" :
@@ -342,7 +346,7 @@ export default function Header() {
                     </button>
 
                     {toggle &&
-                        <div className='absolute top-0 left-0 bg-blue w-full h-screen px-6 py-7 sm:px-10'>
+                        <div className='fixed top-0 left-0 bg-dark-blue w-full h-screen px-6 py-7 sm:px-10'>
                             <div className='flex justify-center'>
                                 <button onClick={() => setToggle(false)}
                                     className='absolute top-0 left-0 px-6 pt-9 sm:px-14'>
