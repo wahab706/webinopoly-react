@@ -155,12 +155,12 @@
     line-height: 20px;
 }
 
-.footer-form input{
+.footer-form input {
     font-size: 14px;
     padding-left: 20px;
 }
 
-.footer-form button{
+.footer-form button {
     font-size: 14px;
     padding: 0 14px;
 }
@@ -237,19 +237,28 @@ input:-webkit-autofill:active {
     -webkit-font-smoothing: antialiased;
 }
 
-.slick-prev{
+.slick-prev {
     background: url(./assets/arrow-prev.png) no-repeat;
     width: 30px;
     height: 30px;
     background-size: contain;
-    /* left: -45px; */
 }
-.slick-next{
+
+.slick-next {
     background: url(./assets/arrow-next.png) no-repeat;
     width: 30px;
     height: 30px;
     background-size: contain;
-    /* right: -45px; */
+}
+
+.slick-prev:hover,
+.slick-prev:focus {
+    background: url(./assets/arrow-prev.png) no-repeat;
+}
+
+.slick-next:hover,
+.slick-next:focus{
+    background: url(./assets/arrow-next.png) no-repeat;
 }
 
 
@@ -535,19 +544,19 @@ input:-webkit-autofill:active {
         padding-right: 42px;
     }
 
-    .mini-slider h2{
+    .mini-slider h2 {
         font-size: 15px;
     }
 
-    .our-reviews-heading{
+    .our-reviews-heading {
         font-size: 15px;
     }
 
-    .reviews-brand h2{
+    .reviews-brand h2 {
         font-size: 14px;
     }
 
-    .reviews-brand{
+    .reviews-brand {
         margin-top: 28px;
     }
 
@@ -635,8 +644,8 @@ input:-webkit-autofill:active {
         font-size: 12px;
     }
 
-    
-   
+
+
 }
 
 /* --------------------------Small Screen--------------------- */
@@ -705,7 +714,7 @@ input:-webkit-autofill:active {
         font-size: 13px;
         font-weight: 400;
     }
-    
+
 }
 
 
@@ -756,16 +765,18 @@ input:-webkit-autofill:active {
         height: auto;
         margin-top: 15px;
     }
-    .footer-form input{
+
+    .footer-form input {
         font-size: 11px;
         padding-left: 10px;
     }
-    
-    .footer-form button{
+
+    .footer-form button {
         font-size: 11px;
         padding: 0 5px;
     }
-    .grid-boxes button{
+
+    .grid-boxes button {
         font-size: 17px;
         margin-top: 10px;
     }
@@ -786,16 +797,17 @@ input:-webkit-autofill:active {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-    .footer-form input{
+    .footer-form input {
         font-size: 13px;
         padding-left: 17px;
     }
-    
-    .footer-form button{
+
+    .footer-form button {
         font-size: 13px;
         padding: 0 10px;
     }
-    .grid-boxes button{
+
+    .grid-boxes button {
         font-size: 17px;
         margin-top: 10px;
     }
@@ -843,15 +855,17 @@ input:-webkit-autofill:active {
     .accordation p {
         font-size: 15px;
     }
-    .grid-boxes button{
+
+    .grid-boxes button {
         font-size: 16px;
         margin-top: 10px;
     }
+
     .grid-box section {
         margin-top: 1rem;
     }
-    
-    
+
+
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1023px) {
@@ -861,17 +875,20 @@ input:-webkit-autofill:active {
 }
 
 @media only screen and (min-width: 501px) and (max-width: 767px) {
-    .grid-boxes{
+    .grid-boxes {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
-    .reviews-main{
+
+    .reviews-main {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .grid-boxes img{
+
+    .grid-boxes img {
         padding: 10px;
     }
-    .grid-boxes button{
+
+    .grid-boxes button {
         font-size: 16px;
         margin-top: 1px;
     }
