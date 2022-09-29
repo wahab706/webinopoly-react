@@ -41,11 +41,11 @@ export default function Reviews({ setModalShow }) {
 
             </section>
 
-            <section className="grid reviews-main pt-6 md:pt-8 lg:pt-6 pb-6  px-6 sm:px-5 md:px-7 lg:px-12 xl:px-16 mt-12 ">
+            <section className="grid reviews-main pt-6 md:pt-8 lg:pt-6 pb-6  px-6 sm:px-5 md:px-7 lg:px-12 xl:px-20 2xl:px-32 mt-12 ">
 
                 <section className="grid-box grid items-start grid-flow-row w-full grid-boxes
               grid-cols-1 sm:grid-cols-2 md:grid-cols-3
-              mini:gap-y-2  sm:gap-4 md:gap-6 lg:gap-8">
+              mini:gap-y-2  sm:gap-4 md:gap-6 xl:gap-8">
 
                     <section>
                         <a href=" https://www.puravidabracelets.com/" className="grid justify-center">
