@@ -16,7 +16,6 @@ module.exports = {
       'parrot': '#60C77C',
       'light-parrot': '#65D656',
       'blue': '#041143',
-      // 'blue-down': '#120d45',
       'dark-blue': '#120D45',
       'black': '#000000',
       'light-black': '#929292',

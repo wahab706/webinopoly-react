@@ -42,6 +42,7 @@ export default function Footer() {
             </>
         );
     }
+
     function mobileIcons() {
         return (
             <>
@@ -73,7 +74,7 @@ export default function Footer() {
         <>
             <footer
                 role="contentinfo"
-                className="bg-blue min-h-[25rem] text-white mt-16">
+                className="bg-dark-blue min-h-[25rem] text-white mt-16">
 
                 <section className={`grid  items-start grid-flow-row w-full gap-6 py-8 justify-center
         px-6 md:px-8 lg:px-18 xl:px-28 2xl:px-44 md:gap-4 lg:gap-6 grid-cols-1 md:grid-cols-4 lg:grid-cols-4 

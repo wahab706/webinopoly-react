@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Modal from './Modal.client';
 import logo from '../../assets/logo.png';
@@ -11,6 +11,22 @@ import { MdArrowDropDown } from "react-icons/md"
 export default function Header() {
     const [toggle, setToggle] = useState(false)
     const [modalShow, setModalShow] = useState(false)
+
+    const listenToScroll = () => {
+        let header = document.getElementById('desktopHeader');
+        let scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
+        if(scrollValue < 200){
+            header.classList.remove('header-sticky');
+        }
+        else{
+            header.classList.add('header-sticky');
+        }  
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", listenToScroll);
+        return () => window.removeEventListener("scroll", listenToScroll);
+    }, []);
 
     function desktopMenu() {
         return (
@@ -28,7 +44,7 @@ export default function Header() {
                                 web services  <RiArrowDropDownLine size={20} />
                             </a>
 
-                            <div className="absolute hidden group-hover:block rounded-b mt-5 bg-blue p-5 pr-10">
+                            <div className="absolute hidden group-hover:block rounded-b mt-5 bg-light-pink p-6 li-bg-change">
                                 <ul className="flex flex-col gap-2">
                                     <li>
                                         <a href="https://webinopoly.com/pages/shopify-experts">shopify experts
@@ -253,11 +269,12 @@ export default function Header() {
 
             <header
                 role="banner"
+                id='desktopHeader'
                 className="hidden md:flex flex-row justify-between items-center w-full max-header
-                z-40 top-0 leading-none gap-4 antialiased transition bg-blue fixed 
+                z-40 top-0 leading-none gap-4 antialiased transition bg-blue absolute 
                 md:flex-col 
                 md:py-5 md:pl-14 md:pr-36
-                lg:py-7 lg:pb-5 lg:pl-12 lg:pr-28 
+                lg:py-8  lg:pl-12 lg:pr-28 
                 xl:pl-24 xl:pr-36 
                 "
             >
@@ -278,16 +295,16 @@ export default function Header() {
                         {desktopMenu()}
                     </div>
 
-                    <div className="flex flex-col lg:-mt-6 sm:hidden md:block">
+                    <div className="flex flex-col lg:-mt-7 sm:hidden md:block icons-div">
                         <div className='flex md-screen-hidden'>
                             {desktopIcons()}
                         </div>
                         <div className='md:flex lg:hidden'>
                             {tabletIcons()}
                         </div>
-                        <div className="mt-2">
+                        <div className='call-action'>
                             <a href="tel:713-805-5888"
-                                className="text-white md:text-xs xl:text-sm font-medium call-para">
+                                className="text-white md:text-xs xl:text-sm font-medium">
                                 CALL - (713) 805-5888
                             </a>
                         </div>

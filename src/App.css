@@ -12,8 +12,25 @@
 
 /* ------------------------Header section----------------------------------- */
 
+.header-sticky{
+    position: fixed;
+    background-color: #120d45;
+    box-shadow: 0 0 10px #0006;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.header-sticky .group div{
+    background-color: #120d45;
+}
+
+.header-sticky .icons-div{
+    margin-top: 0px;
+}
+
+
 .desktop-navbar a {
-    font-family: 'Work Sans', sans-serif !important;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 20px;
@@ -32,16 +49,20 @@
     font-weight: 400;
 }
 
-.group li:hover {
-    color: #e7277c;
+.group li a:hover {
+    color: white;
 }
 
-.call-para {
+.call-action{
+    margin-top: 10px;
+}
+
+.call-action a {
     font-size: 14px;
     font-family: 'Work Sans', sans-serif !important;
     line-height: 20px;
-    letter-spacing: 0.04em;
-    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-weight: 500;  
 }
 
 .mobile-navbar li {
@@ -871,6 +892,13 @@ input:-webkit-autofill:active {
 @media only screen and (min-width: 200px) and (max-width: 1023px) {
     .md-screen-hidden {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+    .max-header{
+        padding-right: 70px !important;
+        padding-left: 35px !important;
     }
 }
 
