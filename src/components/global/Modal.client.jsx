@@ -13,7 +13,7 @@ function Modal({ setModalShow }) {
 
     return (
         <>
-            <div className='fixed z-40 bg-black-modal  w-full h-full modal-anim'>
+            <div className='fixed top-0 z-40 bg-black-modal  w-full h-full modal-anim'>
                 <button className='absolute z-50 right-5 md:right-10 top-7' onClick={() => setModalShow(false)} >
                     <ImCross size={24} className='bg-white rounded-full p-1' />
                 </button>

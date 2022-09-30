@@ -13,17 +13,17 @@ export default function Header() {
     const [modalShow, setModalShow] = useState(false)
 
     const listenToScroll = () => {
-        let desktopHeader = document.getElementById('desktopHeader') ; 
+        let desktopHeader = document.getElementById('desktopHeader');
         let mobileHeader = document.getElementById('mobileHeader');
         let scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
-        if(scrollValue < 200){
+        if (scrollValue < 200) {
             desktopHeader.classList.remove('header-sticky');
             mobileHeader.classList.remove('header-sticky');
         }
-        else{
+        else {
             desktopHeader.classList.add('header-sticky');
             mobileHeader.classList.add('header-sticky');
-        }  
+        }
     };
 
     useEffect(() => {
