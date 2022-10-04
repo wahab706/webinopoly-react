@@ -65,6 +65,10 @@ module.exports = {
       },
     },
     fontFamily: {
+       sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+      workSans: ['Work Sans', 'sans-serif'],
+      MontSerif: ['Montserrat', 'sans-serif'],
       'work-sans': ['Work Sans', 'sans-serif'],
     },
 
