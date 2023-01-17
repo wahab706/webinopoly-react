@@ -12,9 +12,10 @@ import WebTypeDesigns from "./components/sections/WebTypeDesigns.client";
 import Faq from "./components/sections/Faq.client";
 import Modal from "./components/global/Modal.client";
 
+
 function App() {
   const [modalShow, setModalShow] = useState(false)
-
+  
 
   return (
     <Layout>
