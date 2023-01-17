@@ -5,6 +5,7 @@ function ContactForm({ toggle }) {
         largeInput: 'h-24 px-4 md:px-6 text-sm sm:text-base md:text-lg',
     };
     const submitHandle = (e) => {
+        
         e.preventDefault();
         window.location = 'https://webinopoly.com/pages/thank-you';
     }
