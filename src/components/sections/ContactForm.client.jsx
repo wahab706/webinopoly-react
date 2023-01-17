@@ -7,7 +7,7 @@ function ContactForm({ toggle }) {
     const submitHandle = (e) => {
         
         e.preventDefault();
-        // window.location = 'https://webinopoly.com/pages/thank-you';
+        window.location = 'https://webinopoly.com/pages/thank-you';
     }
 
     return (
