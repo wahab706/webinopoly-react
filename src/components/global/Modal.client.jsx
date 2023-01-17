@@ -78,6 +78,9 @@ function Modal({ setModalShow }) {
                                     className={styles.largeInput}
                                 />
                             </div>
+                            <p className="text-white text-xs mt-2 mb-4">
+                                By entering your number, you agree to receive mobile messages at the phone number provided.*
+                            </p>
                             <div className="flex mt-4 w-full">
                                 <button className="bg-pink hover:bg-light-parrot text-sm sm:text-base md:text-lg py-3 sm:py-4 px-6 w-full mx-auto"
                                     id="submitForm">

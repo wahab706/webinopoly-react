@@ -99,6 +99,8 @@ function ContactForm({ toggle }) {
                                 className={styles.largeInput}
                             />
                         </div>
+
+                        
                         <div className="flex mt-6 w-full">
                             {
                                 toggle ?
